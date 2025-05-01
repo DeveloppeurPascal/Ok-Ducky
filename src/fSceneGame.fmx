@@ -1,0 +1,89 @@
+inherited GameScene: TGameScene
+  HitTest = False
+  object GridPanelLayout1: TGridPanelLayout
+    Align = Bottom
+    HitTest = False
+    Margins.Left = 10.000000000000000000
+    Margins.Top = 10.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Margins.Bottom = 10.000000000000000000
+    Position.X = 10.000000000000000000
+    Position.Y = 130.000000000000000000
+    Size.Width = 300.000000000000000000
+    Size.Height = 100.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    ColumnCollection = <
+      item
+        Value = 44.890000000000000000
+      end
+      item
+        Value = 22.110000000000000000
+      end
+      item
+        Value = 33.000000000000000000
+      end>
+    ControlCollection = <
+      item
+        Column = 0
+        Control = txtScore
+        Row = 0
+      end
+      item
+        Column = 1
+        Control = txtVies
+        Row = 0
+      end
+      item
+        Column = 2
+        Control = txtMunitions
+        Row = 0
+      end>
+    RowCollection = <
+      item
+        Value = 100.000000000000000000
+      end>
+    object txtScore: TText
+      Align = Client
+      HitTest = False
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Size.Width = 114.669998168945300000
+      Size.Height = 80.000000000000000000
+      Size.PlatformDefault = False
+      Text = '000'
+      TextSettings.Font.Size = 70.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+    object txtVies: TText
+      Align = Client
+      HitTest = False
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Size.Width = 46.330001831054690000
+      Size.Height = 80.000000000000000000
+      Size.PlatformDefault = False
+      Text = '000'
+      TextSettings.Font.Size = 70.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+    object txtMunitions: TText
+      Align = Client
+      HitTest = False
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Size.Width = 79.000000000000000000
+      Size.Height = 80.000000000000000000
+      Size.PlatformDefault = False
+      Text = '000'
+      TextSettings.Font.Size = 70.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+end
