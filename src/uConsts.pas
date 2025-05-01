@@ -25,8 +25,8 @@
 /// https://github.com/DeveloppeurPascal/Ok-Ducky
 ///
 /// ***************************************************************************
-/// File last update : 2025-05-01T17:26:50.000+02:00
-/// Signature : 32ada51d92055b9ac0b686f1ade362f2184b1556
+/// File last update : 2025-05-01T18:07:28.000+02:00
+/// Signature : 498a83077e2ac965e3f23e543099297b7a19aa90
 /// ***************************************************************************
 /// </summary>
 
@@ -42,7 +42,7 @@ const
   /// Version number of your game, don't forget to update the
   /// Project/Options/Versions infos before compiling a public RELEASE
   /// </summary>
-  CAboutVersionNumber = '1.0';
+  CAboutVersionNumber = '0.501';
 
   /// <summary>
   /// Version date of your game, change it when you publish a new public release
@@ -181,7 +181,7 @@ type
   /// Create scenes screens by inheriting from /Scenes/_SceneAncestor.pas
   /// </remarks>
   TSceneType = (None (* "None" must stay *) , Exit (* "Exit" must stay *) ,
-    Home, Game, GameOverLost, Credits, Options, HallOfFame);
+    Home, Game, GameOver, Credits, Options, HallOfFame);
 
 Const
   /// <summary>
