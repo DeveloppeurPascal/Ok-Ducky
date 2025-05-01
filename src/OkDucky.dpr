@@ -25,8 +25,8 @@
 /// https://github.com/DeveloppeurPascal/Ok-Ducky
 ///
 /// ***************************************************************************
-/// File last update : 2025-05-01T15:40:14.000+02:00
-/// Signature : b23427d448364863d5cf09248d029a00b37dc201
+/// File last update : 2025-05-01T16:53:00.000+02:00
+/// Signature : 98d119f0e2883a660ec97301ccd14d6ee7ac363b
 /// ***************************************************************************
 /// </summary>
 
@@ -35,6 +35,7 @@ program OkDucky;
 uses
   System.StartUpCopy,
   FMX.Forms,
+  FMX.Types,
   FMX.Skia,
   fMain in '..\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\fMain.pas' {frmMain},
   Olf.FMX.AboutDialog in '..\lib-externes\AboutDialog-Delphi-Component\src\Olf.FMX.AboutDialog.pas',
@@ -76,12 +77,18 @@ uses
   uSVGBitmapManager_InputPrompts in 'uSVGBitmapManager_InputPrompts.pas',
   uDMHelpBarManager in '..\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\uDMHelpBarManager.pas' {HelpBarManager: TDataModule},
   _ButtonsAncestor in '..\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\_ButtonsAncestor.pas' {__ButtonAncestor: TFrame},
-  uSceneBackground in 'uSceneBackground.pas' {SceneBackground: TFrame};
+  uSceneBackground in 'uSceneBackground.pas' {SceneBackground: TFrame},
+  uSpriteCanard in 'uSpriteCanard.pas' {SpriteCanard: TFrame},
+  uOkDuckyGameData in 'uOkDuckyGameData.pas';
 
 {$R *.res}
 
 begin
   GlobalUseSkia := True;
+  GlobalUseSkiaRasterWhenAvailable := False; // To speed the game loop
+  {$IFDEF MACOS}
+  GlobalUseMetal := True;
+  {$ENDIF}
   Application.Initialize;
   Application.FormFactor.Orientations := [TFormOrientation.Landscape, TFormOrientation.InvertedLandscape];
   Application.CreateForm(TfrmMain, frmMain);
