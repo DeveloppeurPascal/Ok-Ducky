@@ -25,8 +25,8 @@
 /// https://github.com/DeveloppeurPascal/Ok-Ducky
 ///
 /// ***************************************************************************
-/// File last update : 2025-05-01T16:53:00.000+02:00
-/// Signature : 98d119f0e2883a660ec97301ccd14d6ee7ac363b
+/// File last update : 2025-05-01T17:33:50.000+02:00
+/// Signature : 295b87beaa85c0112717ca16cdf953f728212832
 /// ***************************************************************************
 /// </summary>
 
@@ -79,7 +79,10 @@ uses
   _ButtonsAncestor in '..\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\_ButtonsAncestor.pas' {__ButtonAncestor: TFrame},
   uSceneBackground in 'uSceneBackground.pas' {SceneBackground: TFrame},
   uSpriteCanard in 'uSpriteCanard.pas' {SpriteCanard: TFrame},
-  uOkDuckyGameData in 'uOkDuckyGameData.pas';
+  uOkDuckyGameData in 'uOkDuckyGameData.pas',
+  fSceneHome in 'fSceneHome.pas' {HomeScene: TFrame},
+  fSceneGame in 'fSceneGame.pas' {GameScene: TFrame},
+  fSceneGameOver in 'fSceneGameOver.pas' {GameOverScene: TFrame};
 
 {$R *.res}
 
