@@ -1,9 +1,9 @@
 /// <summary>
 /// ***************************************************************************
 ///
-/// Gamolf FMX Game Template
+/// Ok Ducky!
 ///
-/// Copyright 2024 Patrick Prémartin under AGPL 3.0 license.
+/// Copyright 2021-2025 Patrick PREMARTIN under AGPL 3.0 license.
 ///
 /// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 /// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -15,28 +15,18 @@
 ///
 /// ***************************************************************************
 ///
-/// The "Gamolf FMX Game Template" is both a "technical" example of a video
-/// game developed in Delphi with everything you need inside, and a reusable
-/// project template you can customize for your own games.
-///
-/// The files provided are fully functional. Numerous comments are included in
-/// the sources to explain how they work and what you need to copy, override
-/// or customize to make video games without starting from scratch.
-///
-/// ***************************************************************************
-///
 /// Author(s) :
 /// Patrick PREMARTIN
 ///
 /// Site :
-/// https://gametemplate.developpeur-pascal.fr/
+/// https://okducky.gamolf.fr
 ///
 /// Project site :
-/// https://github.com/DeveloppeurPascal/Gamolf-FMX-Game-Template
+/// https://github.com/DeveloppeurPascal/Ok-Ducky
 ///
 /// ***************************************************************************
-/// File last update : 2024-08-09T23:38:04.000+02:00
-/// Signature : 3963cbb6d83091615c2bc802f47db588e8d0c6d0
+/// File last update : 2025-05-01T16:34:08.000+02:00
+/// Signature : 456dd349cae185437d12fa6a6561fdc02ec03383
 /// ***************************************************************************
 /// </summary>
 
@@ -44,15 +34,9 @@ unit uSoundEffects;
 
 interface
 
-{$MESSAGE WARN 'Save uSoundEffects.pas in your game folder and customize its sounds list and loaded files. Don''t change the template version if you want to be able to update it.'}
-// TODO : Save uSoundEffects.pas in your game folder and customize its sounds list and loaded files. Don't change the template version if you want to be able to update it.
-
 type
 {$SCOPEDENUMS ON}
-  TSoundEffectType = (None (* Must exist ! *) , Demo);
-  // TODO : reference your sounds types
-  // TODO : add the files to folder _PRIVATE/sounds for Windows DEBUG (or change the folder in RegisterSounds())
-  // TODO : add the files to Project/Deployment for each supported platform
+  TSoundEffectType = (None (* Must exist ! *) , CouicDuck1, CouicDuck2);
 
   TSoundEffects = class;
   TSoundEffectsClass = class of TSoundEffects;
@@ -127,9 +111,10 @@ begin
     case Sound of
       TSoundEffectType.None:
         FileName := '';
-      TSoundEffectType.Demo:
+      TSoundEffectType.CouicDuck1:
+        FileName := 'DuckyHit.wav';
+      TSoundEffectType.CouicDuck2:
         FileName := 'DuckyOuch.wav';
-      // TODO : Update the list of sound effects files
     else
       raise Exception.Create('Missing a sound effect !');
     end;
