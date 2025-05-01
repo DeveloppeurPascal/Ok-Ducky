@@ -1,0 +1,17 @@
+inherited HomeScene: THomeScene
+  object btnPlay: TButton
+    Align = Center
+    TabOrder = 0
+    Text = 'btnPlay'
+    TextSettings.Trimming = None
+    OnClick = btnPlayClick
+  end
+  object btnQuit: TButton
+    Align = Center
+    Margins.Top = 50.000000000000000000
+    TabOrder = 1
+    Text = 'btnQuit'
+    TextSettings.Trimming = None
+    OnClick = btnQuitClick
+  end
+end
