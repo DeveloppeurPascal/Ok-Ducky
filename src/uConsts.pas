@@ -25,8 +25,8 @@
 /// https://github.com/DeveloppeurPascal/Ok-Ducky
 ///
 /// ***************************************************************************
-/// File last update : 2025-05-01T15:54:08.000+02:00
-/// Signature : 072246e2d5d945cdf5767526a45b0f7f08f855ce
+/// File last update : 2025-05-01T17:26:50.000+02:00
+/// Signature : 32ada51d92055b9ac0b686f1ade362f2184b1556
 /// ***************************************************************************
 /// </summary>
 
@@ -199,6 +199,23 @@ var
   GGameDataXORKey: TByteDynArray;
 {$ENDIF}
 
+const
+  /// <summary>
+  /// Maximum ducks number for each layout (or Z-Index)
+  /// </summary>
+  CNbCanardsParZone = 3;
+  // TODO : gérer plutôt le nb de canards en fonction de la largeur de l'écran
+
+  /// <summary>
+  /// Nombre de secondes d'exécution de l'animation de disparition d'un canard touché
+  /// </summary>
+  CDelaiApresClicSurCible = 1;
+
+  /// <summary>
+  /// Default nb bullets when we start a game
+  /// </summary>
+  CDefaultNbBullets = 10;
+
 implementation
 
 uses
@@ -261,7 +278,6 @@ try
   // Don't share the key file. If you need to modify it, you won't be able to
   // open the previous configuration file!
 {$I '..\_PRIVATE\src\GameDataFileXORKey.inc'}
-
 {$ENDIF}
 except
   on e: Exception do
