@@ -140,7 +140,7 @@ inherited SceneBackground: TSceneBackground
     Size.Height = 529.000000000000000000
     Size.PlatformDefault = False
     Stroke.Kind = None
-    OnClick = ZIndex00_FondClick
+    OnMouseDown = ZIndex00_FondMouseDown
     object Nuage1: TRectangle
       Fill.Bitmap.Bitmap.PNG = {
         89504E470D0A1A0A0000000D494844520000008600000052080600000091D6AC

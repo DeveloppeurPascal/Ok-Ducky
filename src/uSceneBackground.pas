@@ -25,8 +25,8 @@
 /// https://github.com/DeveloppeurPascal/Ok-Ducky
 ///
 /// ***************************************************************************
-/// File last update : 2025-05-01T17:26:44.000+02:00
-/// Signature : 4dfb75748caa3653f7c261d908c01f05d8f27e7f
+/// File last update : 2025-05-02T19:15:26.000+02:00
+/// Signature : 4d2992d6e62eb6d9fd24aba820ae3de91bb1261f
 /// ***************************************************************************
 /// </summary>
 
@@ -92,7 +92,8 @@ type
     TimerCanards: TTimer;
     procedure TimerCanardsTimer(Sender: TObject);
     procedure FrameResized(Sender: TObject);
-    procedure ZIndex00_FondClick(Sender: TObject);
+    procedure ZIndex00_FondMouseDown(Sender: TObject; Button: TMouseButton;
+      Shift: TShiftState; X, Y: Single);
   private
   protected
     procedure AjouteCanard(Zone: TLayout; DecalageY: integer;
@@ -244,7 +245,8 @@ begin
     AjouteCanard(ZIndex07_Canards, 260, true);
 end;
 
-procedure TSceneBackground.ZIndex00_FondClick(Sender: TObject);
+procedure TSceneBackground.ZIndex00_FondMouseDown(Sender: TObject;
+  Button: TMouseButton; Shift: TShiftState; X, Y: Single);
 begin
   // On tire sur le fond du stand, on a donc loupé les cibles.
   if TOkDuckyGameData.Current.IsPlaying and

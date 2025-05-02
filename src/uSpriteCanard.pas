@@ -25,8 +25,8 @@
 /// https://github.com/DeveloppeurPascal/Ok-Ducky
 ///
 /// ***************************************************************************
-/// File last update : 2025-04-28T09:07:06.475+02:00
-/// Signature : 7081cae1fc097c359cbdf109d9292d41606d409d
+/// File last update : 2025-05-02T19:14:08.000+02:00
+/// Signature : 8ad66dd6a7d5f2c8949aab9c7d1a92c72bb35903
 /// ***************************************************************************
 /// </summary>
 
@@ -35,10 +35,21 @@ unit uSpriteCanard;
 interface
 
 uses
-  System.SysUtils, System.Types, System.UITypes, System.Classes,
+  System.SysUtils,
+  System.Types,
+  System.UITypes,
+  System.Classes,
   System.Variants,
-  FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
-  FMX.Ani, FMX.Objects, FMX.Layouts, System.Generics.Collections;
+  FMX.Types,
+  FMX.Graphics,
+  FMX.Controls,
+  FMX.Forms,
+  FMX.Dialogs,
+  FMX.StdCtrls,
+  FMX.Ani,
+  FMX.Objects,
+  FMX.Layouts,
+  System.Generics.Collections;
 
 type
   TSpriteCanard = class;
@@ -57,8 +68,12 @@ type
     procedure DeLaDroiteVersLaGaucheFinish(Sender: TObject);
     procedure DeLaGaucheVersLaDroiteFinish(Sender: TObject);
     procedure ActionPendantLeDeplacement(Sender: TObject);
-    procedure ClicSurCanard(Sender: TObject);
-    procedure ClickSurBaton(Sender: TObject);
+    procedure BatonMouseDown(Sender: TObject; Button: TMouseButton;
+      Shift: TShiftState; X, Y: Single);
+    procedure Canard_VersLaDroiteMouseDown(Sender: TObject;
+      Button: TMouseButton; Shift: TShiftState; X, Y: Single);
+    procedure Canard_VersLaGaucheMouseDown(Sender: TObject;
+      Button: TMouseButton; Shift: TShiftState; X, Y: Single);
   private
     FonGetDecalageHauteurCanard: tOnGetDecalageHauteurCanard;
     FonClicSurBaton: tOnClicSurBaton;
@@ -66,16 +81,16 @@ type
     CanardEnPause: boolean;
     MouvementEnBoucle: boolean;
     FPosY: integer;
-    function getZoneDAffichageHeight: single;
-    function getZoneDAffichageWidth: single;
+    function getZoneDAffichageHeight: Single;
+    function getZoneDAffichageWidth: Single;
     procedure SetonGetDecalageHauteurCanard(const Value
       : tOnGetDecalageHauteurCanard);
     procedure SetonClicSurBaton(const Value: tOnClicSurBaton);
     procedure SetonClicSurCanard(const Value: tOnClicSurCanard);
     function getDecalageY: integer;
     procedure SetPosY(const Value: integer);
-    property ZoneDAffichageWidth: single read getZoneDAffichageWidth;
-    property ZoneDAffichageHeight: single read getZoneDAffichageHeight;
+    property ZoneDAffichageWidth: Single read getZoneDAffichageWidth;
+    property ZoneDAffichageHeight: Single read getZoneDAffichageHeight;
     property DecalageY: integer read getDecalageY;
   public
     property PosY: integer read FPosY write SetPosY;
@@ -101,15 +116,21 @@ type
 implementation
 
 {$R *.fmx}
-{ TFrame3 }
 
 procedure TSpriteCanard.ActionPendantLeDeplacement(Sender: TObject);
 var
-  y: single;
+  Y: Single;
 begin
-  y := PosY + DecalageY;
-  if y <> Position.y then
-    Position.y := y;
+  Y := PosY + DecalageY;
+  if Y <> Position.Y then
+    Position.Y := Y;
+end;
+
+procedure TSpriteCanard.BatonMouseDown(Sender: TObject; Button: TMouseButton;
+  Shift: TShiftState; X, Y: Single);
+begin
+  if assigned(onClicSurBaton) then
+    onClicSurBaton(Self);
 end;
 
 procedure TSpriteCanard.BougeLeCanard;
@@ -148,13 +169,15 @@ begin
   Canard_VersLaDroite.Visible := DeLaGaucheVersLaDroite.Enabled;
 end;
 
-procedure TSpriteCanard.ClickSurBaton(Sender: TObject);
+procedure TSpriteCanard.Canard_VersLaDroiteMouseDown(Sender: TObject;
+  Button: TMouseButton; Shift: TShiftState; X, Y: Single);
 begin
-  if assigned(onClicSurBaton) then
-    onClicSurBaton(Self);
+  if assigned(onClicSurCanard) then
+    onClicSurCanard(Self);
 end;
 
-procedure TSpriteCanard.ClicSurCanard(Sender: TObject);
+procedure TSpriteCanard.Canard_VersLaGaucheMouseDown(Sender: TObject;
+  Button: TMouseButton; Shift: TShiftState; X, Y: Single);
 begin
   if assigned(onClicSurCanard) then
     onClicSurCanard(Self);
@@ -204,7 +227,7 @@ begin
     result := 0;
 end;
 
-function TSpriteCanard.getZoneDAffichageHeight: single;
+function TSpriteCanard.getZoneDAffichageHeight: Single;
 begin
   if assigned(parent) and (parent is tcontrol) then
     result := (parent as tcontrol).Height
@@ -214,7 +237,7 @@ begin
     result := Height;
 end;
 
-function TSpriteCanard.getZoneDAffichageWidth: single;
+function TSpriteCanard.getZoneDAffichageWidth: Single;
 begin
   if assigned(parent) and (parent is tcontrol) then
     result := (parent as tcontrol).width
@@ -226,19 +249,19 @@ end;
 
 procedure TSpriteCanard.ImmobiliseLeCanard;
 var
-  x: single;
+  X: Single;
 begin
   CanardEnPause := true;
-  x := Position.x; // TODO : L'arrêt de l'animation positionne X sur StopValue
+  X := Position.X; // TODO : L'arrêt de l'animation positionne X sur StopValue
   DeLaGaucheVersLaDroite.Enabled := false;
   DeLaDroiteVersLaGauche.Enabled := false;
-  Position.x := x;
+  Position.X := X;
 end;
 
 procedure TSpriteCanard.InitialiseZoneDeDeplacement;
 begin
   PosY := trunc(ZoneDAffichageHeight - Cible.Height);
-  Position.y := PosY + DecalageY;
+  Position.Y := PosY + DecalageY;
   DeLaGaucheVersLaDroite.Duration := ZoneDAffichageWidth / 80;
   // 1 seconde pour 80 pixels
   DeLaGaucheVersLaDroite.StartValue := -Cible.width;
