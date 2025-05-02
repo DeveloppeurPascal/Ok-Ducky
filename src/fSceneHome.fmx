@@ -1,17 +1,270 @@
 inherited HomeScene: THomeScene
-  object btnPlay: TButton
-    Align = Center
-    TabOrder = 0
-    Text = 'btnPlay'
-    TextSettings.Trimming = None
-    OnClick = btnPlayClick
+  Size.Width = 781.000000000000000000
+  Size.Height = 485.000000000000000000
+  OnResized = FrameResized
+  inline cadTitle1: TcadTitle
+    Align = MostBottom
+    HitTest = False
+    Margins.Left = 20.000000000000000000
+    Margins.Top = 20.000000000000000000
+    Margins.Right = 20.000000000000000000
+    Margins.Bottom = 20.000000000000000000
+    Position.X = 20.000000000000000000
+    Position.Y = 315.000000000000000000
+    Size.Width = 741.000000000000000000
+    Size.Height = 150.000000000000000000
+    Size.PlatformDefault = False
   end
-  object btnQuit: TButton
-    Align = Center
-    Margins.Top = 50.000000000000000000
-    TabOrder = 1
-    Text = 'btnQuit'
-    TextSettings.Trimming = None
-    OnClick = btnQuitClick
+  object lButtons: TLayout
+    Align = Bottom
+    Margins.Left = 10.000000000000000000
+    Margins.Top = 10.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Margins.Bottom = 10.000000000000000000
+    Position.X = 10.000000000000000000
+    Position.Y = -15.000000000000000000
+    Size.Width = 761.000000000000000000
+    Size.Height = 300.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object flButtons: TFlowLayout
+      Align = HorzCenter
+      Position.X = 120.000000000000000000
+      Size.Width = 520.000000000000000000
+      Size.Height = 300.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Justify = Center
+      JustifyLastLine = Center
+      FlowDirection = LeftToRight
+      inline btnContinue: TcadTextButton
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 5.000000000000000000
+        Size.Width = 245.000000000000000000
+        Size.Height = 75.000000000000000000
+        Size.PlatformDefault = False
+        OnClick = btnContinueClick
+        inherited BackgroundUp: TRectangle
+          Padding.Left = 12.000000000000000000
+          Padding.Right = 12.000000000000000000
+          Size.Height = 75.000000000000000000
+          inherited TextUp: TOlfFMXTextImageFrame
+            Size.Width = 276.000000000000000000
+            Size.Height = 32.000000000000000000
+          end
+          inherited FocusLeft: TRectangle
+            Position.X = -8.000000000000000000
+            Size.Height = 47.000000000000000000
+          end
+          inherited FocusRight: TRectangle
+            Position.X = 223.000000000000000000
+            Size.Height = 47.000000000000000000
+          end
+        end
+        inherited BackgroundDown: TRectangle
+          Padding.Left = 8.000000000000000000
+          Padding.Right = 8.000000000000000000
+          Size.Height = 71.000000000000000000
+          inherited TextDown: TOlfFMXTextImageFrame
+            Size.Width = 284.000000000000000000
+            Size.Height = 32.000000000000000000
+          end
+        end
+      end
+      inline btnPlay: TcadTextButton
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 265.000000000000000000
+        Position.Y = 5.000000000000000000
+        Size.Width = 245.000000000000000000
+        Size.Height = 75.000000000000000000
+        Size.PlatformDefault = False
+        OnClick = btnPlayClick
+        inherited BackgroundUp: TRectangle
+          Padding.Left = 12.000000000000000000
+          Padding.Right = 12.000000000000000000
+          Size.Height = 75.000000000000000000
+          inherited TextUp: TOlfFMXTextImageFrame
+            Size.Width = 276.000000000000000000
+            Size.Height = 32.000000000000000000
+          end
+          inherited FocusLeft: TRectangle
+            Position.X = -8.000000000000000000
+            Size.Height = 47.000000000000000000
+          end
+          inherited FocusRight: TRectangle
+            Position.X = 223.000000000000000000
+            Size.Height = 47.000000000000000000
+          end
+        end
+        inherited BackgroundDown: TRectangle
+          Padding.Left = 8.000000000000000000
+          Padding.Right = 8.000000000000000000
+          Size.Height = 71.000000000000000000
+          inherited TextDown: TOlfFMXTextImageFrame
+            Size.Width = 284.000000000000000000
+            Size.Height = 32.000000000000000000
+          end
+        end
+      end
+      inline btnOptions: TcadTextButton
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 90.000000000000000000
+        Size.Width = 245.000000000000000000
+        Size.Height = 75.000000000000000000
+        Size.PlatformDefault = False
+        OnClick = btnOptionsClick
+        inherited BackgroundUp: TRectangle
+          Padding.Left = 12.000000000000000000
+          Padding.Right = 12.000000000000000000
+          Size.Height = 75.000000000000000000
+          inherited TextUp: TOlfFMXTextImageFrame
+            Size.Width = 276.000000000000000000
+            Size.Height = 32.000000000000000000
+          end
+          inherited FocusLeft: TRectangle
+            Position.X = -8.000000000000000000
+            Size.Height = 47.000000000000000000
+          end
+          inherited FocusRight: TRectangle
+            Position.X = 223.000000000000000000
+            Size.Height = 47.000000000000000000
+          end
+        end
+        inherited BackgroundDown: TRectangle
+          Padding.Left = 8.000000000000000000
+          Padding.Right = 8.000000000000000000
+          Size.Height = 71.000000000000000000
+          inherited TextDown: TOlfFMXTextImageFrame
+            Size.Width = 284.000000000000000000
+            Size.Height = 32.000000000000000000
+          end
+        end
+      end
+      inline btnHallOfFame: TcadTextButton
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 265.000000000000000000
+        Position.Y = 90.000000000000000000
+        Size.Width = 245.000000000000000000
+        Size.Height = 75.000000000000000000
+        Size.PlatformDefault = False
+        OnClick = btnHallOfFameClick
+        inherited BackgroundUp: TRectangle
+          Padding.Left = 12.000000000000000000
+          Padding.Right = 12.000000000000000000
+          Size.Height = 75.000000000000000000
+          inherited TextUp: TOlfFMXTextImageFrame
+            Size.Width = 276.000000000000000000
+            Size.Height = 32.000000000000000000
+          end
+          inherited FocusLeft: TRectangle
+            Position.X = -8.000000000000000000
+            Size.Height = 47.000000000000000000
+          end
+          inherited FocusRight: TRectangle
+            Position.X = 223.000000000000000000
+            Size.Height = 47.000000000000000000
+          end
+        end
+        inherited BackgroundDown: TRectangle
+          Padding.Left = 8.000000000000000000
+          Padding.Right = 8.000000000000000000
+          Size.Height = 71.000000000000000000
+          inherited TextDown: TOlfFMXTextImageFrame
+            Size.Width = 284.000000000000000000
+            Size.Height = 32.000000000000000000
+          end
+        end
+      end
+      inline btnCredits: TcadTextButton
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 175.000000000000000000
+        Size.Width = 245.000000000000000000
+        Size.Height = 75.000000000000000000
+        Size.PlatformDefault = False
+        OnClick = btnCreditsClick
+        inherited BackgroundUp: TRectangle
+          Padding.Left = 12.000000000000000000
+          Padding.Right = 12.000000000000000000
+          Size.Height = 75.000000000000000000
+          inherited TextUp: TOlfFMXTextImageFrame
+            Size.Width = 276.000000000000000000
+            Size.Height = 32.000000000000000000
+          end
+          inherited FocusLeft: TRectangle
+            Position.X = -8.000000000000000000
+            Size.Height = 47.000000000000000000
+          end
+          inherited FocusRight: TRectangle
+            Position.X = 223.000000000000000000
+            Size.Height = 47.000000000000000000
+          end
+        end
+        inherited BackgroundDown: TRectangle
+          Padding.Left = 8.000000000000000000
+          Padding.Right = 8.000000000000000000
+          Size.Height = 71.000000000000000000
+          inherited TextDown: TOlfFMXTextImageFrame
+            Size.Width = 284.000000000000000000
+            Size.Height = 32.000000000000000000
+          end
+        end
+      end
+      inline btnQuit: TcadTextButton
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 265.000000000000000000
+        Position.Y = 175.000000000000000000
+        Size.Width = 245.000000000000000000
+        Size.Height = 75.000000000000000000
+        Size.PlatformDefault = False
+        OnClick = btnQuitClick
+        inherited BackgroundUp: TRectangle
+          Padding.Left = 12.000000000000000000
+          Padding.Right = 12.000000000000000000
+          Size.Height = 75.000000000000000000
+          inherited TextUp: TOlfFMXTextImageFrame
+            Size.Width = 276.000000000000000000
+            Size.Height = 32.000000000000000000
+          end
+          inherited FocusLeft: TRectangle
+            Position.X = -8.000000000000000000
+            Size.Height = 47.000000000000000000
+          end
+          inherited FocusRight: TRectangle
+            Position.X = 223.000000000000000000
+            Size.Height = 47.000000000000000000
+          end
+        end
+        inherited BackgroundDown: TRectangle
+          Padding.Left = 8.000000000000000000
+          Padding.Right = 8.000000000000000000
+          Size.Height = 71.000000000000000000
+          inherited TextDown: TOlfFMXTextImageFrame
+            Size.Width = 284.000000000000000000
+            Size.Height = 32.000000000000000000
+          end
+        end
+      end
+    end
   end
 end
