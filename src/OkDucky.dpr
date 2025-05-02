@@ -25,8 +25,8 @@
 /// https://github.com/DeveloppeurPascal/Ok-Ducky
 ///
 /// ***************************************************************************
-/// File last update : 2025-05-01T17:33:50.000+02:00
-/// Signature : 295b87beaa85c0112717ca16cdf953f728212832
+/// File last update : 2025-05-02T17:55:00.000+02:00
+/// Signature : 994cf3b1f7dde3e1bc1607c85f2813b08342fe68
 /// ***************************************************************************
 /// </summary>
 
@@ -82,7 +82,15 @@ uses
   uOkDuckyGameData in 'uOkDuckyGameData.pas',
   fSceneHome in 'fSceneHome.pas' {HomeScene: TFrame},
   fSceneGame in 'fSceneGame.pas' {GameScene: TFrame},
-  fSceneGameOver in 'fSceneGameOver.pas' {GameOverScene: TFrame};
+  fSceneGameOver in 'fSceneGameOver.pas' {GameOverScene: TFrame},
+  udmKenneyNumbers in '..\assets\Kenney.nl\ShootingGallery\KenneyNumbers\udmKenneyNumbers.pas' {dmKenneyNumbers: TDataModule},
+  USVGShootingGallery in '..\assets\Kenney.nl\ShootingGallery\ShootingGallery\USVGShootingGallery.pas',
+  udmAdobeStock_431308055 in '..\_PRIVATE\assets\AdobeStock_431308055\udmAdobeStock_431308055.pas' {dmAdobeStock_431308055: TDataModule},
+  cTitle in 'cTitle.pas' {cadTitle: TFrame},
+  Olf.FMX.TextImageFrame in '..\lib-externes\librairies\src\Olf.FMX.TextImageFrame.pas' {OlfFMXTextImageFrame: TFrame},
+  udmAdobeStock_119031485 in '..\_PRIVATE\assets\AdobeStock_119031485\udmAdobeStock_119031485.pas' {dmAdobeStock_119031485: TDataModule},
+  USVGUIAdventurePack in '..\assets\Kenney.nl\UI Adventure Pack\USVGUIAdventurePack.pas',
+  cButtonText in 'cButtonText.pas' {cadTextButton: TFrame};
 
 {$R *.res}
 
@@ -96,5 +104,8 @@ begin
   Application.FormFactor.Orientations := [TFormOrientation.Landscape, TFormOrientation.InvertedLandscape];
   Application.CreateForm(TfrmMain, frmMain);
   Application.CreateForm(TDMGameControllerCenter, DMGameControllerCenter);
+  Application.CreateForm(TdmKenneyNumbers, dmKenneyNumbers);
+  Application.CreateForm(TdmAdobeStock_431308055, dmAdobeStock_431308055);
+  Application.CreateForm(TdmAdobeStock_119031485, dmAdobeStock_119031485);
   Application.Run;
 end.
