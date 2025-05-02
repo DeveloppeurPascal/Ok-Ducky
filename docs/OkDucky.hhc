@@ -3040,6 +3040,87 @@
                           </UL>
                   </UL>
               <LI> <OBJECT type="text/sitemap">
+                  <param name="Name" value="Olf.FMX.TextImageFrame">
+                  <param name="Local" value="Olf.FMX.TextImageFrame.html">
+                  </OBJECT>
+                  <UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Classes">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TOlfFMXTextImageFrame">
+                                  <param name="Local" value="Olf.FMX.TextImageFrame.TOlfFMXTextImageFrame.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Constructors">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Create">
+                                                  <param name="Local" value="Olf.FMX.TextImageFrame.TOlfFMXTextImageFrame.Create.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Properties">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Font">
+                                                  <param name="Local" value="Olf.FMX.TextImageFrame.TOlfFMXTextImageFrame.Font.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="LetterSpacing">
+                                                  <param name="Local" value="Olf.FMX.TextImageFrame.TOlfFMXTextImageFrame.LetterSpacing.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="OnGetImageIndexOfUnknowChar">
+                                                  <param name="Local" value="Olf.FMX.TextImageFrame.TOlfFMXTextImageFrame.OnGetImageIndexOfUnknowChar.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="SpaceWidth">
+                                                  <param name="Local" value="Olf.FMX.TextImageFrame.TOlfFMXTextImageFrame.SpaceWidth.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Text">
+                                                  <param name="Local" value="Olf.FMX.TextImageFrame.TOlfFMXTextImageFrame.Text.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Methods">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="AjoutImageEtRetourneLargeur">
+                                                  <param name="Local" value="Olf.FMX.TextImageFrame.TOlfFMXTextImageFrame.AjoutImageEtRetourneLargeur.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="RefreshTexte">
+                                                  <param name="Local" value="Olf.FMX.TextImageFrame.TOlfFMXTextImageFrame.RefreshTexte.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="RetourneLargeur">
+                                                  <param name="Local" value="Olf.FMX.TextImageFrame.TOlfFMXTextImageFrame.RetourneLargeur.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="getImageIndexOfChar">
+                                                  <param name="Local" value="Olf.FMX.TextImageFrame.TOlfFMXTextImageFrame.getImageIndexOfChar.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                          </UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Delegates">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TOlfFMXTIFOnGetImageIndexOfUnknowChar">
+                                  <param name="Local" value="Olf.FMX.TextImageFrame.TOlfFMXTIFOnGetImageIndexOfUnknowChar.html">
+                                  </OBJECT>
+                          </UL>
+                  </UL>
+              <LI> <OBJECT type="text/sitemap">
                   <param name="Name" value="Olf.RTL.CryptDecrypt">
                   <param name="Local" value="Olf.RTL.CryptDecrypt.html">
                   </OBJECT>
@@ -4344,6 +4425,1284 @@
                           </UL>
                   </UL>
               <LI> <OBJECT type="text/sitemap">
+                  <param name="Name" value="USVGShootingGallery">
+                  <param name="Local" value="USVGShootingGallery.html">
+                  </OBJECT>
+                  <UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Classes">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TSVGShootingGallery">
+                                  <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Constants">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="BgWood">
+                                                  <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.BgWood.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Cloud1">
+                                                  <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.Cloud1.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Cloud2">
+                                                  <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.Cloud2.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="CrosshairOutlineLarge">
+                                                  <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.CrosshairOutlineLarge.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="CrosshairOutlineSmall">
+                                                  <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.CrosshairOutlineSmall.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="DeuxPoints">
+                                                  <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.DeuxPoints.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="DuckOutlineBrown">
+                                                  <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.DuckOutlineBrown.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="DuckOutlineTargetBrown">
+                                                  <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.DuckOutlineTargetBrown.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="DuckOutlineTargetWhite">
+                                                  <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.DuckOutlineTargetWhite.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="DuckOutlineTargetYellow">
+                                                  <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.DuckOutlineTargetYellow.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="DuckOutlineWhite">
+                                                  <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.DuckOutlineWhite.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="DuckOutlineYellow">
+                                                  <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.DuckOutlineYellow.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="IconBulletGoldLong">
+                                                  <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.IconBulletGoldLong.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="IconDuck">
+                                                  <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.IconDuck.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="IconTarget">
+                                                  <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.IconTarget.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Multiplier">
+                                                  <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.Multiplier.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Plus">
+                                                  <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.Plus.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ShotBlueLarge">
+                                                  <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.ShotBlueLarge.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ShotBrownLarge">
+                                                  <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.ShotBrownLarge.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ShotGreyLarge">
+                                                  <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.ShotGreyLarge.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ShotYellowLarge">
+                                                  <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.ShotYellowLarge.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="StickMetal">
+                                                  <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.StickMetal.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="StickMetalOutline">
+                                                  <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.StickMetalOutline.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="StickWood">
+                                                  <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.StickWood.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="StickWoodFixed">
+                                                  <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.StickWoodFixed.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="StickWoodFixedOutline">
+                                                  <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.StickWoodFixedOutline.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="StickWoodOutline">
+                                                  <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.StickWoodOutline.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="TreeOak">
+                                                  <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.TreeOak.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="TreePine">
+                                                  <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.TreePine.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Constructors">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Create">
+                                                  <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.Create.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Properties">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Tag">
+                                                  <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.Tag.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="TagBool">
+                                                  <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.TagBool.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="TagFloat">
+                                                  <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.TagFloat.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="TagObject">
+                                                  <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.TagObject.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="TagString">
+                                                  <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.TagString.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Methods">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Count">
+                                                  <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.Count.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="SVG">
+                                                  </OBJECT>
+                                                  <UL>
+                                                      <LI> <OBJECT type="text/sitemap">
+                                                          <param name="Name" value="SVG(TSVGShootingGalleryIndex)">
+                                                          <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.SVG(TSVGShootingGalleryIndex).html">
+                                                          </OBJECT>
+                                                      <LI> <OBJECT type="text/sitemap">
+                                                          <param name="Name" value="SVG(Integer)">
+                                                          <param name="Local" value="USVGShootingGallery.TSVGShootingGallery.SVG(Integer).html">
+                                                          </OBJECT>
+                                                  </UL>
+                                          </UL>
+                                  </UL>
+                          </UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Enumerations">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TSVGShootingGalleryIndex">
+                                  <param name="Local" value="USVGShootingGallery.TSVGShootingGalleryIndex.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="BgWood">
+                                          <param name="Local" value="USVGShootingGallery.TSVGShootingGalleryIndex.BgWood.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Cloud1">
+                                          <param name="Local" value="USVGShootingGallery.TSVGShootingGalleryIndex.Cloud1.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Cloud2">
+                                          <param name="Local" value="USVGShootingGallery.TSVGShootingGalleryIndex.Cloud2.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="CrosshairOutlineLarge">
+                                          <param name="Local" value="USVGShootingGallery.TSVGShootingGalleryIndex.CrosshairOutlineLarge.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="CrosshairOutlineSmall">
+                                          <param name="Local" value="USVGShootingGallery.TSVGShootingGalleryIndex.CrosshairOutlineSmall.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="DeuxPoints">
+                                          <param name="Local" value="USVGShootingGallery.TSVGShootingGalleryIndex.DeuxPoints.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="DuckOutlineBrown">
+                                          <param name="Local" value="USVGShootingGallery.TSVGShootingGalleryIndex.DuckOutlineBrown.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="DuckOutlineTargetBrown">
+                                          <param name="Local" value="USVGShootingGallery.TSVGShootingGalleryIndex.DuckOutlineTargetBrown.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="DuckOutlineTargetWhite">
+                                          <param name="Local" value="USVGShootingGallery.TSVGShootingGalleryIndex.DuckOutlineTargetWhite.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="DuckOutlineTargetYellow">
+                                          <param name="Local" value="USVGShootingGallery.TSVGShootingGalleryIndex.DuckOutlineTargetYellow.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="DuckOutlineWhite">
+                                          <param name="Local" value="USVGShootingGallery.TSVGShootingGalleryIndex.DuckOutlineWhite.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="DuckOutlineYellow">
+                                          <param name="Local" value="USVGShootingGallery.TSVGShootingGalleryIndex.DuckOutlineYellow.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="IconBulletGoldLong">
+                                          <param name="Local" value="USVGShootingGallery.TSVGShootingGalleryIndex.IconBulletGoldLong.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="IconDuck">
+                                          <param name="Local" value="USVGShootingGallery.TSVGShootingGalleryIndex.IconDuck.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="IconTarget">
+                                          <param name="Local" value="USVGShootingGallery.TSVGShootingGalleryIndex.IconTarget.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Multiplier">
+                                          <param name="Local" value="USVGShootingGallery.TSVGShootingGalleryIndex.Multiplier.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Plus">
+                                          <param name="Local" value="USVGShootingGallery.TSVGShootingGalleryIndex.Plus.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="ShotBlueLarge">
+                                          <param name="Local" value="USVGShootingGallery.TSVGShootingGalleryIndex.ShotBlueLarge.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="ShotBrownLarge">
+                                          <param name="Local" value="USVGShootingGallery.TSVGShootingGalleryIndex.ShotBrownLarge.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="ShotGreyLarge">
+                                          <param name="Local" value="USVGShootingGallery.TSVGShootingGalleryIndex.ShotGreyLarge.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="ShotYellowLarge">
+                                          <param name="Local" value="USVGShootingGallery.TSVGShootingGalleryIndex.ShotYellowLarge.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="StickMetalOutline">
+                                          <param name="Local" value="USVGShootingGallery.TSVGShootingGalleryIndex.StickMetalOutline.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="StickMetal">
+                                          <param name="Local" value="USVGShootingGallery.TSVGShootingGalleryIndex.StickMetal.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="StickWoodOutline">
+                                          <param name="Local" value="USVGShootingGallery.TSVGShootingGalleryIndex.StickWoodOutline.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="StickWood">
+                                          <param name="Local" value="USVGShootingGallery.TSVGShootingGalleryIndex.StickWood.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="StickWoodFixedOutline">
+                                          <param name="Local" value="USVGShootingGallery.TSVGShootingGalleryIndex.StickWoodFixedOutline.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="StickWoodFixed">
+                                          <param name="Local" value="USVGShootingGallery.TSVGShootingGalleryIndex.StickWoodFixed.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="TreeOak">
+                                          <param name="Local" value="USVGShootingGallery.TSVGShootingGalleryIndex.TreeOak.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="TreePine">
+                                          <param name="Local" value="USVGShootingGallery.TSVGShootingGalleryIndex.TreePine.html">
+                                          </OBJECT>
+                                  </UL>
+                          </UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Variables">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="SVGShootingGallery">
+                                  <param name="Local" value="USVGShootingGallery.SVGShootingGallery.html">
+                                  </OBJECT>
+                          </UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Constants">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVG0">
+                                  <param name="Local" value="USVGShootingGallery.CSVG0.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVG1">
+                                  <param name="Local" value="USVGShootingGallery.CSVG1.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVG2">
+                                  <param name="Local" value="USVGShootingGallery.CSVG2.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVG3">
+                                  <param name="Local" value="USVGShootingGallery.CSVG3.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVG4">
+                                  <param name="Local" value="USVGShootingGallery.CSVG4.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVG5">
+                                  <param name="Local" value="USVGShootingGallery.CSVG5.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVG6">
+                                  <param name="Local" value="USVGShootingGallery.CSVG6.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVG7">
+                                  <param name="Local" value="USVGShootingGallery.CSVG7.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVG8">
+                                  <param name="Local" value="USVGShootingGallery.CSVG8.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVG9">
+                                  <param name="Local" value="USVGShootingGallery.CSVG9.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGBgWood">
+                                  <param name="Local" value="USVGShootingGallery.CSVGBgWood.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGCloud1">
+                                  <param name="Local" value="USVGShootingGallery.CSVGCloud1.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGCloud2">
+                                  <param name="Local" value="USVGShootingGallery.CSVGCloud2.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGCrosshairOutlineLarge">
+                                  <param name="Local" value="USVGShootingGallery.CSVGCrosshairOutlineLarge.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGCrosshairOutlineSmall">
+                                  <param name="Local" value="USVGShootingGallery.CSVGCrosshairOutlineSmall.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGDeuxPoints">
+                                  <param name="Local" value="USVGShootingGallery.CSVGDeuxPoints.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGDuckOutlineBrown">
+                                  <param name="Local" value="USVGShootingGallery.CSVGDuckOutlineBrown.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGDuckOutlineTargetBrown">
+                                  <param name="Local" value="USVGShootingGallery.CSVGDuckOutlineTargetBrown.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGDuckOutlineTargetWhite">
+                                  <param name="Local" value="USVGShootingGallery.CSVGDuckOutlineTargetWhite.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGDuckOutlineTargetYellow">
+                                  <param name="Local" value="USVGShootingGallery.CSVGDuckOutlineTargetYellow.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGDuckOutlineWhite">
+                                  <param name="Local" value="USVGShootingGallery.CSVGDuckOutlineWhite.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGDuckOutlineYellow">
+                                  <param name="Local" value="USVGShootingGallery.CSVGDuckOutlineYellow.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGIconBulletGoldLong">
+                                  <param name="Local" value="USVGShootingGallery.CSVGIconBulletGoldLong.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGIconDuck">
+                                  <param name="Local" value="USVGShootingGallery.CSVGIconDuck.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGIconTarget">
+                                  <param name="Local" value="USVGShootingGallery.CSVGIconTarget.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGMultiplier">
+                                  <param name="Local" value="USVGShootingGallery.CSVGMultiplier.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGPlus">
+                                  <param name="Local" value="USVGShootingGallery.CSVGPlus.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGShotBlueLarge">
+                                  <param name="Local" value="USVGShootingGallery.CSVGShotBlueLarge.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGShotBrownLarge">
+                                  <param name="Local" value="USVGShootingGallery.CSVGShotBrownLarge.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGShotGreyLarge">
+                                  <param name="Local" value="USVGShootingGallery.CSVGShotGreyLarge.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGShotYellowLarge">
+                                  <param name="Local" value="USVGShootingGallery.CSVGShotYellowLarge.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGStickMetal">
+                                  <param name="Local" value="USVGShootingGallery.CSVGStickMetal.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGStickMetalOutline">
+                                  <param name="Local" value="USVGShootingGallery.CSVGStickMetalOutline.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGStickWood">
+                                  <param name="Local" value="USVGShootingGallery.CSVGStickWood.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGStickWoodFixed">
+                                  <param name="Local" value="USVGShootingGallery.CSVGStickWoodFixed.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGStickWoodFixedOutline">
+                                  <param name="Local" value="USVGShootingGallery.CSVGStickWoodFixedOutline.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGStickWoodOutline">
+                                  <param name="Local" value="USVGShootingGallery.CSVGStickWoodOutline.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGTreeOak">
+                                  <param name="Local" value="USVGShootingGallery.CSVGTreeOak.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGTreePine">
+                                  <param name="Local" value="USVGShootingGallery.CSVGTreePine.html">
+                                  </OBJECT>
+                          </UL>
+                  </UL>
+              <LI> <OBJECT type="text/sitemap">
+                  <param name="Name" value="USVGUIAdventurePack">
+                  <param name="Local" value="USVGUIAdventurePack.html">
+                  </OBJECT>
+                  <UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Classes">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TSVGUIAdventurePack">
+                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Constants">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ArrowBeigeLeft">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.ArrowBeigeLeft.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ArrowBeigeRight">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.ArrowBeigeRight.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ArrowBlueLeft">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.ArrowBlueLeft.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ArrowBlueRight">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.ArrowBlueRight.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ArrowBrownLeft">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.ArrowBrownLeft.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ArrowBrownRight">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.ArrowBrownRight.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ArrowSilverLeft">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.ArrowSilverLeft.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ArrowSilverRight">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.ArrowSilverRight.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ButtonLongBeige">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.ButtonLongBeige.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ButtonLongBeigePressed">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.ButtonLongBeigePressed.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ButtonLongBlue">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.ButtonLongBlue.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ButtonLongBluePressed">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.ButtonLongBluePressed.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ButtonLongBrown">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.ButtonLongBrown.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ButtonLongBrownPressed">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.ButtonLongBrownPressed.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ButtonLongGrey">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.ButtonLongGrey.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ButtonLongGreyPressed">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.ButtonLongGreyPressed.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ButtonRoundBeige">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.ButtonRoundBeige.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ButtonRoundBlue">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.ButtonRoundBlue.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ButtonRoundBrown">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.ButtonRoundBrown.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ButtonRoundGrey">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.ButtonRoundGrey.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ButtonSquareBeige">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.ButtonSquareBeige.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ButtonSquareBeigePressed">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.ButtonSquareBeigePressed.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ButtonSquareBlue">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.ButtonSquareBlue.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ButtonSquareBluePressed">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.ButtonSquareBluePressed.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ButtonSquareBrown">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.ButtonSquareBrown.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ButtonSquareBrownPressed">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.ButtonSquareBrownPressed.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ButtonSquareGrey">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.ButtonSquareGrey.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ButtonSquareGreyPressed">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.ButtonSquareGreyPressed.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="CursorGauntletBronze">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.CursorGauntletBronze.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="CursorGauntletGrey">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.CursorGauntletGrey.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="CursorGauntletGrey1">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.CursorGauntletGrey1.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="CursorHandBeige">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.CursorHandBeige.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="CursorHandBlue">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.CursorHandBlue.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="CursorHandGrey">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.CursorHandGrey.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="CursorSwordBronze">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.CursorSwordBronze.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="CursorSwordGold">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.CursorSwordGold.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="CursorSwordSilver">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.CursorSwordSilver.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="IconCheckBeige">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.IconCheckBeige.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="IconCheckBlue">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.IconCheckBlue.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="IconCheckBronze">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.IconCheckBronze.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="IconCheckGrey">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.IconCheckGrey.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="IconCircleBeige">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.IconCircleBeige.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="IconCircleBlue">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.IconCircleBlue.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="IconCircleBrown">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.IconCircleBrown.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="IconCircleGrey">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.IconCircleGrey.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="IconCrossBeige">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.IconCrossBeige.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="IconCrossBlue">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.IconCrossBlue.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="IconCrossBrown">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.IconCrossBrown.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="IconCrossGrey">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.IconCrossGrey.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="PanelBeige">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.PanelBeige.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="PanelBeigeLight">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.PanelBeigeLight.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="PanelBlue">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.PanelBlue.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="PanelBrown">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.PanelBrown.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="PanelInsetBeige">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.PanelInsetBeige.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="PanelInsetBeigeLight">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.PanelInsetBeigeLight.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="PanelInsetBlue">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.PanelInsetBlue.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="PanelInsetBrown">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.PanelInsetBrown.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Constructors">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Create">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.Create.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Properties">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Tag">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.Tag.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="TagBool">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.TagBool.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="TagFloat">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.TagFloat.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="TagObject">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.TagObject.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="TagString">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.TagString.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Methods">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Count">
+                                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.Count.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="SVG">
+                                                  </OBJECT>
+                                                  <UL>
+                                                      <LI> <OBJECT type="text/sitemap">
+                                                          <param name="Name" value="SVG(TSVGUIAdventurePackIndex)">
+                                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.SVG(TSVGUIAdventurePackIndex).html">
+                                                          </OBJECT>
+                                                      <LI> <OBJECT type="text/sitemap">
+                                                          <param name="Name" value="SVG(Integer)">
+                                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePack.SVG(Integer).html">
+                                                          </OBJECT>
+                                                  </UL>
+                                          </UL>
+                                  </UL>
+                          </UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Enumerations">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TSVGUIAdventurePackIndex">
+                                  <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="ArrowBeigeLeft">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.ArrowBeigeLeft.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="ArrowBeigeRight">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.ArrowBeigeRight.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="ArrowBlueLeft">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.ArrowBlueLeft.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="ArrowBlueRight">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.ArrowBlueRight.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="ArrowBrownLeft">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.ArrowBrownLeft.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="ArrowBrownRight">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.ArrowBrownRight.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="ArrowSilverLeft">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.ArrowSilverLeft.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="ArrowSilverRight">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.ArrowSilverRight.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="ButtonLongBeigePressed">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.ButtonLongBeigePressed.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="ButtonLongBeige">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.ButtonLongBeige.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="ButtonLongBluePressed">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.ButtonLongBluePressed.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="ButtonLongBlue">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.ButtonLongBlue.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="ButtonLongBrownPressed">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.ButtonLongBrownPressed.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="ButtonLongBrown">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.ButtonLongBrown.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="ButtonLongGreyPressed">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.ButtonLongGreyPressed.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="ButtonLongGrey">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.ButtonLongGrey.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="ButtonRoundBeige">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.ButtonRoundBeige.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="ButtonRoundBlue">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.ButtonRoundBlue.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="ButtonRoundBrown">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.ButtonRoundBrown.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="ButtonRoundGrey">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.ButtonRoundGrey.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="ButtonSquareBeigePressed">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.ButtonSquareBeigePressed.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="ButtonSquareBeige">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.ButtonSquareBeige.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="ButtonSquareBluePressed">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.ButtonSquareBluePressed.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="ButtonSquareBlue">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.ButtonSquareBlue.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="ButtonSquareBrownPressed">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.ButtonSquareBrownPressed.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="ButtonSquareBrown">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.ButtonSquareBrown.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="ButtonSquareGreyPressed">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.ButtonSquareGreyPressed.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="ButtonSquareGrey">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.ButtonSquareGrey.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="CursorGauntletBronze">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.CursorGauntletBronze.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="CursorGauntletGrey1">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.CursorGauntletGrey1.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="CursorGauntletGrey">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.CursorGauntletGrey.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="CursorHandBeige">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.CursorHandBeige.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="CursorHandBlue">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.CursorHandBlue.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="CursorHandGrey">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.CursorHandGrey.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="CursorSwordBronze">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.CursorSwordBronze.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="CursorSwordGold">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.CursorSwordGold.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="CursorSwordSilver">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.CursorSwordSilver.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="IconCheckBeige">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.IconCheckBeige.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="IconCheckBlue">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.IconCheckBlue.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="IconCheckBronze">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.IconCheckBronze.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="IconCheckGrey">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.IconCheckGrey.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="IconCircleBeige">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.IconCircleBeige.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="IconCircleBlue">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.IconCircleBlue.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="IconCircleBrown">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.IconCircleBrown.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="IconCircleGrey">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.IconCircleGrey.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="IconCrossBeige">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.IconCrossBeige.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="IconCrossBlue">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.IconCrossBlue.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="IconCrossBrown">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.IconCrossBrown.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="IconCrossGrey">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.IconCrossGrey.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="PanelBeige">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.PanelBeige.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="PanelBeigeLight">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.PanelBeigeLight.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="PanelBlue">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.PanelBlue.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="PanelBrown">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.PanelBrown.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="PanelInsetBeige">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.PanelInsetBeige.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="PanelInsetBeigeLight">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.PanelInsetBeigeLight.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="PanelInsetBlue">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.PanelInsetBlue.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="PanelInsetBrown">
+                                          <param name="Local" value="USVGUIAdventurePack.TSVGUIAdventurePackIndex.PanelInsetBrown.html">
+                                          </OBJECT>
+                                  </UL>
+                          </UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Variables">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="SVGUIAdventurePack">
+                                  <param name="Local" value="USVGUIAdventurePack.SVGUIAdventurePack.html">
+                                  </OBJECT>
+                          </UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Constants">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGArrowBeigeLeft">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGArrowBeigeLeft.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGArrowBeigeRight">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGArrowBeigeRight.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGArrowBlueLeft">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGArrowBlueLeft.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGArrowBlueRight">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGArrowBlueRight.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGArrowBrownLeft">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGArrowBrownLeft.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGArrowBrownRight">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGArrowBrownRight.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGArrowSilverLeft">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGArrowSilverLeft.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGArrowSilverRight">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGArrowSilverRight.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGButtonLongBeige">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGButtonLongBeige.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGButtonLongBeigePressed">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGButtonLongBeigePressed.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGButtonLongBlue">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGButtonLongBlue.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGButtonLongBluePressed">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGButtonLongBluePressed.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGButtonLongBrown">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGButtonLongBrown.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGButtonLongBrownPressed">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGButtonLongBrownPressed.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGButtonLongGrey">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGButtonLongGrey.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGButtonLongGreyPressed">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGButtonLongGreyPressed.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGButtonRoundBeige">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGButtonRoundBeige.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGButtonRoundBlue">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGButtonRoundBlue.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGButtonRoundBrown">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGButtonRoundBrown.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGButtonRoundGrey">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGButtonRoundGrey.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGButtonSquareBeige">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGButtonSquareBeige.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGButtonSquareBeigePressed">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGButtonSquareBeigePressed.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGButtonSquareBlue">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGButtonSquareBlue.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGButtonSquareBluePressed">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGButtonSquareBluePressed.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGButtonSquareBrown">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGButtonSquareBrown.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGButtonSquareBrownPressed">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGButtonSquareBrownPressed.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGButtonSquareGrey">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGButtonSquareGrey.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGButtonSquareGreyPressed">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGButtonSquareGreyPressed.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGCursorGauntletBronze">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGCursorGauntletBronze.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGCursorGauntletGrey">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGCursorGauntletGrey.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGCursorGauntletGrey1">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGCursorGauntletGrey1.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGCursorHandBeige">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGCursorHandBeige.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGCursorHandBlue">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGCursorHandBlue.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGCursorHandGrey">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGCursorHandGrey.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGCursorSwordBronze">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGCursorSwordBronze.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGCursorSwordGold">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGCursorSwordGold.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGCursorSwordSilver">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGCursorSwordSilver.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGIconCheckBeige">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGIconCheckBeige.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGIconCheckBlue">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGIconCheckBlue.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGIconCheckBronze">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGIconCheckBronze.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGIconCheckGrey">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGIconCheckGrey.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGIconCircleBeige">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGIconCircleBeige.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGIconCircleBlue">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGIconCircleBlue.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGIconCircleBrown">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGIconCircleBrown.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGIconCircleGrey">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGIconCircleGrey.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGIconCrossBeige">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGIconCrossBeige.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGIconCrossBlue">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGIconCrossBlue.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGIconCrossBrown">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGIconCrossBrown.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGIconCrossGrey">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGIconCrossGrey.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGPanelBeige">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGPanelBeige.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGPanelBeigeLight">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGPanelBeigeLight.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGPanelBlue">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGPanelBlue.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGPanelBrown">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGPanelBrown.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGPanelInsetBeige">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGPanelInsetBeige.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGPanelInsetBeigeLight">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGPanelInsetBeigeLight.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGPanelInsetBlue">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGPanelInsetBlue.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CSVGPanelInsetBrown">
+                                  <param name="Local" value="USVGUIAdventurePack.CSVGPanelInsetBrown.html">
+                                  </OBJECT>
+                          </UL>
+                  </UL>
+              <LI> <OBJECT type="text/sitemap">
                   <param name="Name" value="_ButtonsAncestor">
                   <param name="Local" value="_ButtonsAncestor.html">
                   </OBJECT>
@@ -4507,6 +5866,112 @@
                           </UL>
                   </UL>
               <LI> <OBJECT type="text/sitemap">
+                  <param name="Name" value="cButtonText">
+                  <param name="Local" value="cButtonText.html">
+                  </OBJECT>
+                  <UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Classes">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TcadTextButton">
+                                  <param name="Local" value="cButtonText.TcadTextButton.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Methods">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="AfterConstruction">
+                                                  <param name="Local" value="cButtonText.TcadTextButton.AfterConstruction.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="GetImageIndexOfUnknowChar">
+                                                  <param name="Local" value="cButtonText.TcadTextButton.GetImageIndexOfUnknowChar.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Repaint">
+                                                  <param name="Local" value="cButtonText.TcadTextButton.Repaint.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Fields">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="BackgroundDown">
+                                                  <param name="Local" value="cButtonText.TcadTextButton.BackgroundDown.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="BackgroundUp">
+                                                  <param name="Local" value="cButtonText.TcadTextButton.BackgroundUp.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="FocusLeft">
+                                                  <param name="Local" value="cButtonText.TcadTextButton.FocusLeft.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="FocusRight">
+                                                  <param name="Local" value="cButtonText.TcadTextButton.FocusRight.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="TextDown">
+                                                  <param name="Local" value="cButtonText.TcadTextButton.TextDown.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="TextUp">
+                                                  <param name="Local" value="cButtonText.TcadTextButton.TextUp.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                          </UL>
+                  </UL>
+              <LI> <OBJECT type="text/sitemap">
+                  <param name="Name" value="cTitle">
+                  <param name="Local" value="cTitle.html">
+                  </OBJECT>
+                  <UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Classes">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TcadTitle">
+                                  <param name="Local" value="cTitle.TcadTitle.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Methods">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="AfterConstruction">
+                                                  <param name="Local" value="cTitle.TcadTitle.AfterConstruction.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="FrameResized">
+                                                  <param name="Local" value="cTitle.TcadTitle.FrameResized.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="GetImageIndexOfUnknowChar">
+                                                  <param name="Local" value="cTitle.TcadTitle.GetImageIndexOfUnknowChar.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Fields">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="OlfFMXTextImageFrame1">
+                                                  <param name="Local" value="cTitle.TcadTitle.OlfFMXTextImageFrame1.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                          </UL>
+                  </UL>
+              <LI> <OBJECT type="text/sitemap">
                   <param name="Name" value="fMain">
                   <param name="Local" value="fMain.html">
                   </OBJECT>
@@ -4647,12 +6112,32 @@
                                                   <param name="Local" value="fSceneGame.TGameScene.EndOfGame.html">
                                                   </OBJECT>
                                               <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="GetImageIndexOfUnknowChar">
+                                                  <param name="Local" value="fSceneGame.TGameScene.GetImageIndexOfUnknowChar.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="GridPanelLayout1Resized">
+                                                  <param name="Local" value="fSceneGame.TGameScene.GridPanelLayout1Resized.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
                                                   <param name="Name" value="HideScene">
                                                   <param name="Local" value="fSceneGame.TGameScene.HideScene.html">
                                                   </OBJECT>
                                               <LI> <OBJECT type="text/sitemap">
                                                   <param name="Name" value="ShowScene">
                                                   <param name="Local" value="fSceneGame.TGameScene.ShowScene.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="UpdateNbBullets">
+                                                  <param name="Local" value="fSceneGame.TGameScene.UpdateNbBullets.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="UpdateNbLives">
+                                                  <param name="Local" value="fSceneGame.TGameScene.UpdateNbLives.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="UpdateScore">
+                                                  <param name="Local" value="fSceneGame.TGameScene.UpdateScore.html">
                                                   </OBJECT>
                                           </UL>
                                       <LI> <OBJECT type="text/sitemap">
@@ -4664,16 +6149,28 @@
                                                   <param name="Local" value="fSceneGame.TGameScene.GridPanelLayout1.html">
                                                   </OBJECT>
                                               <LI> <OBJECT type="text/sitemap">
-                                                  <param name="Name" value="txtMunitions">
-                                                  <param name="Local" value="fSceneGame.TGameScene.txtMunitions.html">
+                                                  <param name="Name" value="ShadowEffect1">
+                                                  <param name="Local" value="fSceneGame.TGameScene.ShadowEffect1.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ShadowEffect2">
+                                                  <param name="Local" value="fSceneGame.TGameScene.ShadowEffect2.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ShadowEffect3">
+                                                  <param name="Local" value="fSceneGame.TGameScene.ShadowEffect3.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="txtNbBullets">
+                                                  <param name="Local" value="fSceneGame.TGameScene.txtNbBullets.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="txtNbLives">
+                                                  <param name="Local" value="fSceneGame.TGameScene.txtNbLives.html">
                                                   </OBJECT>
                                               <LI> <OBJECT type="text/sitemap">
                                                   <param name="Name" value="txtScore">
                                                   <param name="Local" value="fSceneGame.TGameScene.txtScore.html">
-                                                  </OBJECT>
-                                              <LI> <OBJECT type="text/sitemap">
-                                                  <param name="Name" value="txtVies">
-                                                  <param name="Local" value="fSceneGame.TGameScene.txtVies.html">
                                                   </OBJECT>
                                           </UL>
                                   </UL>
@@ -4724,6 +6221,42 @@
                                           </OBJECT>
                                           <UL>
                                               <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="CalcButtonLayout">
+                                                  <param name="Local" value="fSceneHome.THomeScene.CalcButtonLayout.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="FrameResized">
+                                                  <param name="Local" value="fSceneHome.THomeScene.FrameResized.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="HideScene">
+                                                  <param name="Local" value="fSceneHome.THomeScene.HideScene.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ShowScene">
+                                                  <param name="Local" value="fSceneHome.THomeScene.ShowScene.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="TranslateTexts">
+                                                  <param name="Local" value="fSceneHome.THomeScene.TranslateTexts.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnContinueClick">
+                                                  <param name="Local" value="fSceneHome.THomeScene.btnContinueClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnCreditsClick">
+                                                  <param name="Local" value="fSceneHome.THomeScene.btnCreditsClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnHallOfFameClick">
+                                                  <param name="Local" value="fSceneHome.THomeScene.btnHallOfFameClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnOptionsClick">
+                                                  <param name="Local" value="fSceneHome.THomeScene.btnOptionsClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
                                                   <param name="Name" value="btnPlayClick">
                                                   <param name="Local" value="fSceneHome.THomeScene.btnPlayClick.html">
                                                   </OBJECT>
@@ -4737,12 +6270,40 @@
                                           </OBJECT>
                                           <UL>
                                               <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnContinue">
+                                                  <param name="Local" value="fSceneHome.THomeScene.btnContinue.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnCredits">
+                                                  <param name="Local" value="fSceneHome.THomeScene.btnCredits.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnHallOfFame">
+                                                  <param name="Local" value="fSceneHome.THomeScene.btnHallOfFame.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnOptions">
+                                                  <param name="Local" value="fSceneHome.THomeScene.btnOptions.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
                                                   <param name="Name" value="btnPlay">
                                                   <param name="Local" value="fSceneHome.THomeScene.btnPlay.html">
                                                   </OBJECT>
                                               <LI> <OBJECT type="text/sitemap">
                                                   <param name="Name" value="btnQuit">
                                                   <param name="Local" value="fSceneHome.THomeScene.btnQuit.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="cadTitle1">
+                                                  <param name="Local" value="fSceneHome.THomeScene.cadTitle1.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="flButtons">
+                                                  <param name="Local" value="fSceneHome.THomeScene.flButtons.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="lButtons">
+                                                  <param name="Local" value="fSceneHome.THomeScene.lButtons.html">
                                                   </OBJECT>
                                           </UL>
                                   </UL>
@@ -5628,6 +7189,14 @@
                                   </OBJECT>
                                   <UL>
                                       <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="getBitmapFromSVG(TSVGUIAdventurePackIndex,single,single,single)">
+                                          <param name="Local" value="uSVGBitmapManager_InputPrompts.getBitmapFromSVG(TSVGUIAdventurePackIndex,single,single,single).html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="getBitmapFromSVG(TSVGShootingGalleryIndex,single,single,single)">
+                                          <param name="Local" value="uSVGBitmapManager_InputPrompts.getBitmapFromSVG(TSVGShootingGalleryIndex,single,single,single).html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
                                           <param name="Name" value="getBitmapFromSVG(TSVGInputPromptsIndex,single,single,single)">
                                           <param name="Local" value="uSVGBitmapManager_InputPrompts.getBitmapFromSVG(TSVGInputPromptsIndex,single,single,single).html">
                                           </OBJECT>
@@ -5766,8 +7335,8 @@
                                                   <param name="Local" value="uSceneBackground.TSceneBackground.TimerCanardsTimer.html">
                                                   </OBJECT>
                                               <LI> <OBJECT type="text/sitemap">
-                                                  <param name="Name" value="ZIndex00_FondClick">
-                                                  <param name="Local" value="uSceneBackground.TSceneBackground.ZIndex00_FondClick.html">
+                                                  <param name="Name" value="ZIndex00_FondMouseDown">
+                                                  <param name="Local" value="uSceneBackground.TSceneBackground.ZIndex00_FondMouseDown.html">
                                                   </OBJECT>
                                           </UL>
                                       <LI> <OBJECT type="text/sitemap">
@@ -6041,6 +7610,10 @@
                                                   <param name="Local" value="uSpriteCanard.TSpriteCanard.ActionPendantLeDeplacement.html">
                                                   </OBJECT>
                                               <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="BatonMouseDown">
+                                                  <param name="Local" value="uSpriteCanard.TSpriteCanard.BatonMouseDown.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
                                                   <param name="Name" value="BougeLeCanard">
                                                   <param name="Local" value="uSpriteCanard.TSpriteCanard.BougeLeCanard.html">
                                                   </OBJECT>
@@ -6053,12 +7626,12 @@
                                                   <param name="Local" value="uSpriteCanard.TSpriteCanard.BougeLeCanardDeGaucheADroite.html">
                                                   </OBJECT>
                                               <LI> <OBJECT type="text/sitemap">
-                                                  <param name="Name" value="ClicSurCanard">
-                                                  <param name="Local" value="uSpriteCanard.TSpriteCanard.ClicSurCanard.html">
+                                                  <param name="Name" value="Canard_VersLaDroiteMouseDown">
+                                                  <param name="Local" value="uSpriteCanard.TSpriteCanard.Canard_VersLaDroiteMouseDown.html">
                                                   </OBJECT>
                                               <LI> <OBJECT type="text/sitemap">
-                                                  <param name="Name" value="ClickSurBaton">
-                                                  <param name="Local" value="uSpriteCanard.TSpriteCanard.ClickSurBaton.html">
+                                                  <param name="Name" value="Canard_VersLaGaucheMouseDown">
+                                                  <param name="Local" value="uSpriteCanard.TSpriteCanard.Canard_VersLaGaucheMouseDown.html">
                                                   </OBJECT>
                                               <LI> <OBJECT type="text/sitemap">
                                                   <param name="Name" value="DeLaDroiteVersLaGaucheFinish">
@@ -6303,6 +7876,111 @@
                               <LI> <OBJECT type="text/sitemap">
                                   <param name="Name" value="url_Open_In_Browser">
                                   <param name="Local" value="u_urlOpen.url_Open_In_Browser.html">
+                                  </OBJECT>
+                          </UL>
+                  </UL>
+              <LI> <OBJECT type="text/sitemap">
+                  <param name="Name" value="udmAdobeStock_119031485">
+                  <param name="Local" value="udmAdobeStock_119031485.html">
+                  </OBJECT>
+                  <UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Classes">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TdmAdobeStock_119031485">
+                                  <param name="Local" value="udmAdobeStock_119031485.TdmAdobeStock_119031485.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Fields">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ImageList">
+                                                  <param name="Local" value="udmAdobeStock_119031485.TdmAdobeStock_119031485.ImageList.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                          </UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Variables">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="dmAdobeStock_119031485">
+                                  <param name="Local" value="udmAdobeStock_119031485.dmAdobeStock_119031485.html">
+                                  </OBJECT>
+                          </UL>
+                  </UL>
+              <LI> <OBJECT type="text/sitemap">
+                  <param name="Name" value="udmAdobeStock_431308055">
+                  <param name="Local" value="udmAdobeStock_431308055.html">
+                  </OBJECT>
+                  <UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Classes">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TdmAdobeStock_431308055">
+                                  <param name="Local" value="udmAdobeStock_431308055.TdmAdobeStock_431308055.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Fields">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ImageList">
+                                                  <param name="Local" value="udmAdobeStock_431308055.TdmAdobeStock_431308055.ImageList.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                          </UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Variables">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="dmAdobeStock_431308055">
+                                  <param name="Local" value="udmAdobeStock_431308055.dmAdobeStock_431308055.html">
+                                  </OBJECT>
+                          </UL>
+                  </UL>
+              <LI> <OBJECT type="text/sitemap">
+                  <param name="Name" value="udmKenneyNumbers">
+                  <param name="Local" value="udmKenneyNumbers.html">
+                  </OBJECT>
+                  <UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Classes">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TdmKenneyNumbers">
+                                  <param name="Local" value="udmKenneyNumbers.TdmKenneyNumbers.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Fields">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ImageList">
+                                                  <param name="Local" value="udmKenneyNumbers.TdmKenneyNumbers.ImageList.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                          </UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Variables">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="dmKenneyNumbers">
+                                  <param name="Local" value="udmKenneyNumbers.dmKenneyNumbers.html">
                                   </OBJECT>
                           </UL>
                   </UL>
