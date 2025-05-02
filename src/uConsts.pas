@@ -25,8 +25,8 @@
 /// https://github.com/DeveloppeurPascal/Ok-Ducky
 ///
 /// ***************************************************************************
-/// File last update : 2025-05-01T18:07:28.000+02:00
-/// Signature : 498a83077e2ac965e3f23e543099297b7a19aa90
+/// File last update : 2025-05-02T15:03:42.000+02:00
+/// Signature : 1b6dedd94d6b636b656788dda1b05ae1b8892a6a
 /// ***************************************************************************
 /// </summary>
 
@@ -42,12 +42,12 @@ const
   /// Version number of your game, don't forget to update the
   /// Project/Options/Versions infos before compiling a public RELEASE
   /// </summary>
-  CAboutVersionNumber = '0.501';
+  CAboutVersionNumber = '0.502';
 
   /// <summary>
   /// Version date of your game, change it when you publish a new public release
   /// </summary>
-  CAboutVersionDate = '20250501';
+  CAboutVersionDate = '20250502';
 
   /// <summary>
   /// Title of your game used in the About box and as the main form caption
