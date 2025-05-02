@@ -1,4 +1,4 @@
-/// <summary>
+ï»¿/// <summary>
 /// ***************************************************************************
 ///
 /// Ok Ducky!
@@ -25,16 +25,14 @@
 /// https://github.com/DeveloppeurPascal/Ok-Ducky
 ///
 /// ***************************************************************************
-/// File last update : 2025-05-01T18:01:44.000+02:00
-/// Signature : 0819879fac5220eccbcb95672b3f02d61342abc4
+/// File last update : 2025-05-02T19:24:26.000+02:00
+/// Signature : d8db000104aea7defad2392e9d7061e34bd927fc
 /// ***************************************************************************
 /// </summary>
 
 unit fSceneGame;
 
 interface
-
-{$MESSAGE WARN 'revoir affichage du score et des autres éléments de jeu'}
 
 uses
   System.SysUtils,
@@ -51,20 +49,30 @@ uses
   System.Messaging,
   _ScenesAncestor,
   FMX.Objects,
-  FMX.Layouts;
+  FMX.Layouts,
+  Olf.FMX.TextImageFrame, FMX.Effects;
 
 type
   TGameScene = class(T__SceneAncestor)
     GridPanelLayout1: TGridPanelLayout;
-    txtScore: TText;
-    txtVies: TText;
-    txtMunitions: TText;
+    txtScore: TOlfFMXTextImageFrame;
+    txtNbBullets: TOlfFMXTextImageFrame;
+    txtNbLives: TOlfFMXTextImageFrame;
+    ShadowEffect1: TShadowEffect;
+    ShadowEffect2: TShadowEffect;
+    ShadowEffect3: TShadowEffect;
+    procedure GridPanelLayout1Resized(Sender: TObject);
   private
   protected
     procedure DoScoreChanged(const Sender: TObject; const Msg: TMessage);
     procedure DoNbLivesChanged(const Sender: TObject; const Msg: TMessage);
     procedure DoNbBulletsChanged(const Sender: TObject; const Msg: TMessage);
     procedure EndOfGame;
+    procedure UpdateScore(const Value: Int64);
+    procedure UpdateNbLives(const Value: Int64);
+    procedure UpdateNbBullets(const Value: Int64);
+    function GetImageIndexOfUnknowChar(Sender: TOlfFMXTextImageFrame;
+      AChar: char): integer;
   public
     procedure ShowScene; override;
     procedure HideScene; override;
@@ -78,14 +86,15 @@ uses
   uScene,
   uconsts,
   uGameData,
-  uOkDuckyGameData;
+  uOkDuckyGameData,
+  udmKenneyNumbers;
 
 { TGameScene }
 
 procedure TGameScene.DoNbBulletsChanged(const Sender: TObject;
   const Msg: TMessage);
 begin
-  txtMunitions.Text := (Msg as TNbBulletsChangedMessage).NbBullets.ToString;
+  UpdateNbBullets((Msg as TNbBulletsChangedMessage).NbBullets);
 
   if ((Msg as TNbBulletsChangedMessage).NbBullets < 1) then
     EndOfGame;
@@ -94,7 +103,7 @@ end;
 procedure TGameScene.DoNbLivesChanged(const Sender: TObject;
   const Msg: TMessage);
 begin
-  txtVies.Text := (Msg as TNbLivesChangedMessage).NbLives.ToString;
+  UpdateNbLives((Msg as TNbLivesChangedMessage).NbLives);
 
   if ((Msg as TNbLivesChangedMessage).NbLives < 1) then
     EndOfGame;
@@ -102,13 +111,34 @@ end;
 
 procedure TGameScene.DoScoreChanged(const Sender: TObject; const Msg: TMessage);
 begin
-  txtScore.Text := (Msg as TScoreChangedMessage).Score.ToString;
+  UpdateScore((Msg as TScoreChangedMessage).Score);
 end;
 
 procedure TGameScene.EndOfGame;
 begin
   TOkDuckyGameData.Current.StopGame;
   TScene.Current := TSceneType.GameOver;
+end;
+
+function TGameScene.GetImageIndexOfUnknowChar(Sender: TOlfFMXTextImageFrame;
+  AChar: char): integer;
+begin
+  if AChar = 'S' then
+    result := Sender.getImageIndexOfChar('icon_duck')
+  else if AChar = 'B' then
+    result := Sender.getImageIndexOfChar('icon_bullet_gold_long')
+  else if AChar = 'L' then
+    result := Sender.getImageIndexOfChar('shot_brown_large')
+  else
+    result := -1;
+end;
+
+procedure TGameScene.GridPanelLayout1Resized(Sender: TObject);
+begin
+  inherited;
+  txtScore.height := GridPanelLayout1.height;
+  txtNbBullets.height := GridPanelLayout1.height;
+  txtNbLives.height := GridPanelLayout1.height;
 end;
 
 procedure TGameScene.HideScene;
@@ -125,6 +155,13 @@ end;
 procedure TGameScene.ShowScene;
 begin
   inherited;
+  txtScore.Font := dmKenneyNumbers.ImageList;
+  txtScore.OnGetImageIndexOfUnknowChar := GetImageIndexOfUnknowChar;
+  txtNbBullets.Font := dmKenneyNumbers.ImageList;
+  txtNbBullets.OnGetImageIndexOfUnknowChar := GetImageIndexOfUnknowChar;
+  txtNbLives.Font := dmKenneyNumbers.ImageList;
+  txtNbLives.OnGetImageIndexOfUnknowChar := GetImageIndexOfUnknowChar;
+
   TMessageManager.DefaultManager.SubscribeToMessage(TScoreChangedMessage,
     DoScoreChanged);
   TMessageManager.DefaultManager.SubscribeToMessage(TNbLivesChangedMessage,
@@ -132,9 +169,24 @@ begin
   TMessageManager.DefaultManager.SubscribeToMessage(TNbBulletsChangedMessage,
     DoNbBulletsChanged);
 
-  txtScore.Text := TOkDuckyGameData.Current.Score.ToString;
-  txtVies.Text := TOkDuckyGameData.Current.NbLives.ToString;
-  txtMunitions.Text := TOkDuckyGameData.Current.NbBullets.ToString;
+  UpdateScore(TOkDuckyGameData.Current.Score);
+  UpdateNbLives(TOkDuckyGameData.Current.NbLives);
+  UpdateNbBullets(TOkDuckyGameData.Current.NbBullets);
+end;
+
+procedure TGameScene.UpdateNbBullets(const Value: Int64);
+begin
+  txtNbBullets.Text := 'B ' + Value.ToString;
+end;
+
+procedure TGameScene.UpdateNbLives(const Value: Int64);
+begin
+  txtNbLives.Text := 'L ' + Value.ToString;
+end;
+
+procedure TGameScene.UpdateScore(const Value: Int64);
+begin
+  txtScore.Text := 'S ' + Value.ToString;
 end;
 
 initialization

@@ -15,10 +15,10 @@ inherited GameScene: TGameScene
     TabOrder = 0
     ColumnCollection = <
       item
-        Value = 44.890000000000000000
+        Value = 33.000000000000000000
       end
       item
-        Value = 22.110000000000000000
+        Value = 34.000000000000000000
       end
       item
         Value = 33.000000000000000000
@@ -31,59 +31,60 @@ inherited GameScene: TGameScene
       end
       item
         Column = 1
-        Control = txtVies
+        Control = txtNbBullets
         Row = 0
       end
       item
         Column = 2
-        Control = txtMunitions
+        Control = txtNbLives
         Row = 0
       end>
     RowCollection = <
       item
         Value = 100.000000000000000000
       end>
-    object txtScore: TText
-      Align = Client
+    OnResized = GridPanelLayout1Resized
+    inline txtScore: TOlfFMXTextImageFrame
+      Align = Center
       HitTest = False
-      Margins.Left = 10.000000000000000000
-      Margins.Top = 10.000000000000000000
-      Margins.Right = 10.000000000000000000
-      Margins.Bottom = 10.000000000000000000
-      Size.Width = 114.669998168945300000
-      Size.Height = 80.000000000000000000
+      Size.Width = 134.669998168945300000
+      Size.Height = 100.000000000000000000
       Size.PlatformDefault = False
-      Text = '000'
-      TextSettings.Font.Size = 70.000000000000000000
-      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      object ShadowEffect3: TShadowEffect
+        Distance = 3.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 0.300000011920929000
+        Opacity = 0.600000023841857900
+        ShadowColor = claBlack
+      end
     end
-    object txtVies: TText
-      Align = Client
+    inline txtNbBullets: TOlfFMXTextImageFrame
+      Align = Center
       HitTest = False
-      Margins.Left = 10.000000000000000000
-      Margins.Top = 10.000000000000000000
-      Margins.Right = 10.000000000000000000
-      Margins.Bottom = 10.000000000000000000
-      Size.Width = 46.330001831054690000
-      Size.Height = 80.000000000000000000
+      Size.Width = 66.330001831054680000
+      Size.Height = 100.000000000000000000
       Size.PlatformDefault = False
-      Text = '000'
-      TextSettings.Font.Size = 70.000000000000000000
-      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      object ShadowEffect1: TShadowEffect
+        Distance = 3.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 0.300000011920929000
+        Opacity = 0.600000023841857900
+        ShadowColor = claBlack
+      end
     end
-    object txtMunitions: TText
-      Align = Client
+    inline txtNbLives: TOlfFMXTextImageFrame
+      Align = Center
       HitTest = False
-      Margins.Left = 10.000000000000000000
-      Margins.Top = 10.000000000000000000
-      Margins.Right = 10.000000000000000000
-      Margins.Bottom = 10.000000000000000000
-      Size.Width = 79.000000000000000000
-      Size.Height = 80.000000000000000000
+      Size.Width = 99.000000000000000000
+      Size.Height = 100.000000000000000000
       Size.PlatformDefault = False
-      Text = '000'
-      TextSettings.Font.Size = 70.000000000000000000
-      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      object ShadowEffect2: TShadowEffect
+        Distance = 3.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 0.300000011920929000
+        Opacity = 0.600000023841857900
+        ShadowColor = claBlack
+      end
     end
   end
 end
