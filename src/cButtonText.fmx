@@ -1,0 +1,75 @@
+inherited cadTextButton: TcadTextButton
+  Size.Width = 245.000000000000000000
+  Size.Height = 74.000000000000000000
+  object BackgroundUp: TRectangle
+    Align = Client
+    Fill.Bitmap.WrapMode = Tile
+    Fill.Kind = Bitmap
+    Locked = True
+    HitTest = False
+    Padding.Top = 12.000000000000000000
+    Padding.Bottom = 16.000000000000000000
+    Size.Width = 245.000000000000000000
+    Size.Height = 74.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    inline TextUp: TOlfFMXTextImageFrame
+      Align = Center
+      Locked = True
+      HitTest = False
+      Size.Width = 190.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object FocusLeft: TRectangle
+      Align = MostLeft
+      Fill.Bitmap.WrapMode = Tile
+      Fill.Kind = Bitmap
+      Locked = True
+      HitTest = False
+      Margins.Left = -20.000000000000000000
+      Position.X = -20.000000000000000000
+      Position.Y = 12.000000000000000000
+      Size.Width = 30.000000000000000000
+      Size.Height = 46.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+    end
+    object FocusRight: TRectangle
+      Align = MostRight
+      Fill.Bitmap.WrapMode = Tile
+      Fill.Kind = Bitmap
+      Locked = True
+      HitTest = False
+      Margins.Right = -20.000000000000000000
+      Position.X = 235.000000000000000000
+      Position.Y = 12.000000000000000000
+      Size.Width = 30.000000000000000000
+      Size.Height = 46.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+    end
+  end
+  object BackgroundDown: TRectangle
+    Align = Client
+    Fill.Bitmap.WrapMode = Tile
+    Fill.Kind = Bitmap
+    Locked = True
+    HitTest = False
+    Padding.Top = 12.000000000000000000
+    Padding.Bottom = 12.000000000000000000
+    Margins.Top = 4.000000000000000000
+    Size.Width = 245.000000000000000000
+    Size.Height = 70.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    inline TextDown: TOlfFMXTextImageFrame
+      Align = Center
+      Locked = True
+      HitTest = False
+      Size.Width = 190.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+end
