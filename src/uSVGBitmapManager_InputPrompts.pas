@@ -25,8 +25,8 @@
 /// https://github.com/DeveloppeurPascal/Ok-Ducky
 ///
 /// ***************************************************************************
-/// File last update : 2025-05-01T15:57:32.000+02:00
-/// Signature : 853eb3e31ff3c2a45c048f0882d30dcc7ba73d13
+/// File last update : 2025-05-02T17:56:50.000+02:00
+/// Signature : 20e987cbcf1870a853cabfe78663568d4137ccf9
 /// ***************************************************************************
 /// </summary>
 
@@ -36,12 +36,18 @@ interface
 
 uses
   FMX.Graphics,
-  USVGInputPrompts;
+  USVGInputPrompts,
+  USVGShootingGallery,
+  USVGUIAdventurePack;
 
 /// <summary>
 /// Returns a bitmap from a SVG image
 /// </summary>
 function getBitmapFromSVG(const Index: TSVGInputPromptsIndex;
+  const width, height: single; const BitmapScale: single): tbitmap; overload;
+function getBitmapFromSVG(const Index: TSVGShootingGalleryIndex;
+  const width, height: single; const BitmapScale: single): tbitmap; overload;
+function getBitmapFromSVG(const Index: TSVGUIAdventurePackIndex;
   const width, height: single; const BitmapScale: single): tbitmap; overload;
 
 implementation
@@ -56,9 +62,25 @@ begin
     round(width), round(height), BitmapScale);
 end;
 
+function getBitmapFromSVG(const Index: TSVGShootingGalleryIndex;
+  const width, height: single; const BitmapScale: single): tbitmap; overload;
+begin
+  result := TOlfSVGBitmapList.Bitmap(ord(Index) + TSVGShootingGallery.Tag,
+    round(width), round(height), BitmapScale);
+end;
+
+function getBitmapFromSVG(const Index: TSVGUIAdventurePackIndex;
+  const width, height: single; const BitmapScale: single): tbitmap; overload;
+begin
+  result := TOlfSVGBitmapList.Bitmap(ord(Index) + TSVGUIAdventurePack.Tag,
+    round(width), round(height), BitmapScale);
+end;
+
 procedure RegisterSVGImages;
 begin
   TSVGInputPrompts.Tag := TOlfSVGBitmapList.AddItem(SVGInputPrompts);
+  TSVGShootingGallery.Tag := TOlfSVGBitmapList.AddItem(SVGShootingGallery);
+  TSVGUIAdventurePack.Tag := TOlfSVGBitmapList.AddItem(SVGUIAdventurePack);
 end;
 
 initialization
