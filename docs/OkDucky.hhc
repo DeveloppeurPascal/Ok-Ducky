@@ -5866,6 +5866,58 @@
                           </UL>
                   </UL>
               <LI> <OBJECT type="text/sitemap">
+                  <param name="Name" value="cButtonRadio">
+                  <param name="Local" value="cButtonRadio.html">
+                  </OBJECT>
+                  <UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Classes">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TcadRadioButton">
+                                  <param name="Local" value="cButtonRadio.TcadRadioButton.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Properties">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="IsChecked">
+                                                  <param name="Local" value="cButtonRadio.TcadRadioButton.IsChecked.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Methods">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Click">
+                                                  <param name="Local" value="cButtonRadio.TcadRadioButton.Click.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Repaint">
+                                                  <param name="Local" value="cButtonRadio.TcadRadioButton.Repaint.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Fields">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="rBackground">
+                                                  <param name="Local" value="cButtonRadio.TcadRadioButton.rBackground.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="rChecked">
+                                                  <param name="Local" value="cButtonRadio.TcadRadioButton.rChecked.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                          </UL>
+                  </UL>
+              <LI> <OBJECT type="text/sitemap">
                   <param name="Name" value="cButtonText">
                   <param name="Local" value="cButtonText.html">
                   </OBJECT>
@@ -5923,6 +5975,81 @@
                                               <LI> <OBJECT type="text/sitemap">
                                                   <param name="Name" value="TextUp">
                                                   <param name="Local" value="cButtonText.TcadTextButton.TextUp.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                          </UL>
+                  </UL>
+              <LI> <OBJECT type="text/sitemap">
+                  <param name="Name" value="cDialogBox">
+                  <param name="Local" value="cDialogBox.html">
+                  </OBJECT>
+                  <UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Classes">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TcadDialogBox">
+                                  <param name="Local" value="cDialogBox.TcadDialogBox.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Methods">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="AfterConstruction">
+                                                  <param name="Local" value="cDialogBox.TcadDialogBox.AfterConstruction.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="GetImageIndexOfUnknowChar">
+                                                  <param name="Local" value="cDialogBox.TcadDialogBox.GetImageIndexOfUnknowChar.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="HideScene">
+                                                  <param name="Local" value="cDialogBox.TcadDialogBox.HideScene.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ShowScene">
+                                                  <param name="Local" value="cDialogBox.TcadDialogBox.ShowScene.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="TranslateTexts">
+                                                  <param name="Local" value="cDialogBox.TcadDialogBox.TranslateTexts.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Fields">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="BoxBackground">
+                                                  <param name="Local" value="cDialogBox.TcadDialogBox.BoxBackground.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="DialogBackground">
+                                                  <param name="Local" value="cDialogBox.TcadDialogBox.DialogBackground.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="VertScrollBox1">
+                                                  <param name="Local" value="cDialogBox.TcadDialogBox.VertScrollBox1.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnClose">
+                                                  <param name="Local" value="cDialogBox.TcadDialogBox.btnClose.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="lFooter">
+                                                  <param name="Local" value="cDialogBox.TcadDialogBox.lFooter.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="lHeader">
+                                                  <param name="Local" value="cDialogBox.TcadDialogBox.lHeader.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="txtTitle">
+                                                  <param name="Local" value="cDialogBox.TcadDialogBox.txtTitle.html">
                                                   </OBJECT>
                                           </UL>
                                   </UL>
@@ -6078,6 +6205,49 @@
                           </UL>
                   </UL>
               <LI> <OBJECT type="text/sitemap">
+                  <param name="Name" value="fSceneCredits">
+                  <param name="Local" value="fSceneCredits.html">
+                  </OBJECT>
+                  <UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Classes">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TCreditsScene">
+                                  <param name="Local" value="fSceneCredits.TCreditsScene.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Methods">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="AfterConstruction">
+                                                  <param name="Local" value="fSceneCredits.TCreditsScene.AfterConstruction.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="TranslateTexts">
+                                                  <param name="Local" value="fSceneCredits.TCreditsScene.TranslateTexts.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnCloseClick">
+                                                  <param name="Local" value="fSceneCredits.TCreditsScene.btnCloseClick.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Fields">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Text1">
+                                                  <param name="Local" value="fSceneCredits.TCreditsScene.Text1.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                          </UL>
+                  </UL>
+              <LI> <OBJECT type="text/sitemap">
                   <param name="Name" value="fSceneGame">
                   <param name="Local" value="fSceneGame.html">
                   </OBJECT>
@@ -6122,6 +6292,10 @@
                                               <LI> <OBJECT type="text/sitemap">
                                                   <param name="Name" value="HideScene">
                                                   <param name="Local" value="fSceneGame.TGameScene.HideScene.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="MiseEnPause">
+                                                  <param name="Local" value="fSceneGame.TGameScene.MiseEnPause.html">
                                                   </OBJECT>
                                               <LI> <OBJECT type="text/sitemap">
                                                   <param name="Name" value="ShowScene">
@@ -6195,8 +6369,72 @@
                                           </OBJECT>
                                           <UL>
                                               <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="AfterConstruction">
+                                                  <param name="Local" value="fSceneGameOver.TGameOverScene.AfterConstruction.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
                                                   <param name="Name" value="ShowScene">
                                                   <param name="Local" value="fSceneGameOver.TGameOverScene.ShowScene.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="TranslateTexts">
+                                                  <param name="Local" value="fSceneGameOver.TGameOverScene.TranslateTexts.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnCloseClick">
+                                                  <param name="Local" value="fSceneGameOver.TGameOverScene.btnCloseClick.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Fields">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Text1">
+                                                  <param name="Local" value="fSceneGameOver.TGameOverScene.Text1.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                          </UL>
+                  </UL>
+              <LI> <OBJECT type="text/sitemap">
+                  <param name="Name" value="fSceneHallOfFame">
+                  <param name="Local" value="fSceneHallOfFame.html">
+                  </OBJECT>
+                  <UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Classes">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="THallOfFameScene">
+                                  <param name="Local" value="fSceneHallOfFame.THallOfFameScene.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Methods">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ShowScene">
+                                                  <param name="Local" value="fSceneHallOfFame.THallOfFameScene.ShowScene.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="TranslateTexts">
+                                                  <param name="Local" value="fSceneHallOfFame.THallOfFameScene.TranslateTexts.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnCloseClick">
+                                                  <param name="Local" value="fSceneHallOfFame.THallOfFameScene.btnCloseClick.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Fields">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="FlowLayout1">
+                                                  <param name="Local" value="fSceneHallOfFame.THallOfFameScene.FlowLayout1.html">
                                                   </OBJECT>
                                           </UL>
                                   </UL>
@@ -6304,6 +6542,81 @@
                                               <LI> <OBJECT type="text/sitemap">
                                                   <param name="Name" value="lButtons">
                                                   <param name="Local" value="fSceneHome.THomeScene.lButtons.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                          </UL>
+                  </UL>
+              <LI> <OBJECT type="text/sitemap">
+                  <param name="Name" value="fSceneOptions">
+                  <param name="Local" value="fSceneOptions.html">
+                  </OBJECT>
+                  <UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Classes">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TOptionsScene">
+                                  <param name="Local" value="fSceneOptions.TOptionsScene.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Methods">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="AfterConstruction">
+                                                  <param name="Local" value="fSceneOptions.TOptionsScene.AfterConstruction.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ShowScene">
+                                                  <param name="Local" value="fSceneOptions.TOptionsScene.ShowScene.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="TranslateTexts">
+                                                  <param name="Local" value="fSceneOptions.TOptionsScene.TranslateTexts.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnCloseClick">
+                                                  <param name="Local" value="fSceneOptions.TOptionsScene.btnCloseClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="rbMusicOnOffClick">
+                                                  <param name="Local" value="fSceneOptions.TOptionsScene.rbMusicOnOffClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="rbSoundEffectsOnOffClick">
+                                                  <param name="Local" value="fSceneOptions.TOptionsScene.rbSoundEffectsOnOffClick.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Fields">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="lMusicOnOff">
+                                                  <param name="Local" value="fSceneOptions.TOptionsScene.lMusicOnOff.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="lSoundEffectsOnOff">
+                                                  <param name="Local" value="fSceneOptions.TOptionsScene.lSoundEffectsOnOff.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="rbMusicOnOff">
+                                                  <param name="Local" value="fSceneOptions.TOptionsScene.rbMusicOnOff.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="rbSoundEffectsOnOff">
+                                                  <param name="Local" value="fSceneOptions.TOptionsScene.rbSoundEffectsOnOff.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="txtMusicOnOff">
+                                                  <param name="Local" value="fSceneOptions.TOptionsScene.txtMusicOnOff.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="txtSoundEffectsOnOff">
+                                                  <param name="Local" value="fSceneOptions.TOptionsScene.txtSoundEffectsOnOff.html">
                                                   </OBJECT>
                                           </UL>
                                   </UL>
@@ -7170,6 +7483,32 @@
                                               <LI> <OBJECT type="text/sitemap">
                                                   <param name="Name" value="SaveToStream">
                                                   <param name="Local" value="uOkDuckyGameData.TOkDuckyGameData.SaveToStream.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                          </UL>
+                  </UL>
+              <LI> <OBJECT type="text/sitemap">
+                  <param name="Name" value="uOkDuckyScores">
+                  <param name="Local" value="uOkDuckyScores.html">
+                  </OBJECT>
+                  <UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Classes">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TOkDuckyScores">
+                                  <param name="Local" value="uOkDuckyScores.TOkDuckyScores.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Methods">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Current">
+                                                  <param name="Local" value="uOkDuckyScores.TOkDuckyScores.Current.html">
                                                   </OBJECT>
                                           </UL>
                                   </UL>
