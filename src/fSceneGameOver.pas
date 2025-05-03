@@ -25,16 +25,14 @@
 /// https://github.com/DeveloppeurPascal/Ok-Ducky
 ///
 /// ***************************************************************************
-/// File last update : 2025-05-01T18:06:02.000+02:00
-/// Signature : aee0797235805de2b7c059cda46a44a0380fea98
+/// File last update : 2025-05-03T17:30:52.000+02:00
+/// Signature : 923821fc56bc1c207c8172d459bf32cc2f4f216e
 /// ***************************************************************************
 /// </summary>
 
 unit fSceneGameOver;
 
 interface
-
-{$MESSAGE WARN 'modifier affichage du score final et du titre "game over"'}
 
 uses
   System.SysUtils,
@@ -48,12 +46,21 @@ uses
   FMX.Forms,
   FMX.Dialogs,
   FMX.StdCtrls,
-  _ScenesAncestor;
+  cDialogBox,
+  _ButtonsAncestor,
+  cButtonText,
+  Olf.FMX.TextImageFrame,
+  FMX.Layouts,
+  FMX.Objects;
 
 type
-  TGameOverScene = class(T__SceneAncestor)
+  TGameOverScene = class(TcadDialogBox)
+    Text1: TText;
+    procedure btnCloseClick(Sender: TObject);
   private
   public
+    procedure TranslateTexts(const Language: string); override;
+    procedure AfterConstruction; override;
     procedure ShowScene; override;
   end;
 
@@ -65,16 +72,42 @@ uses
   System.Messaging,
   uScene,
   uconsts,
-  uOkDuckyGameData;
+  uOkDuckyGameData,
+  uOkDuckyScores;
 
-{ TGameOverScene }
+procedure TGameOverScene.AfterConstruction;
+begin
+  inherited;
+  Text1.TextSettings.Font.Size := Text1.TextSettings.Font.Size * 2;
+end;
+
+procedure TGameOverScene.btnCloseClick(Sender: TObject);
+begin
+  TScene.Current := TSceneType.Home;
+end;
 
 procedure TGameOverScene.ShowScene;
 begin
   inherited;
-  ShowMessage('GAME OVER' + slinebreak + slinebreak + 'Your final score is ' +
-    TOkDuckyGameData.Current.Score.ToString);
-  TScene.Current := TSceneType.Home;
+  TOkDuckyScores.Current.Add('-', TOkDuckyGameData.Current.Score);
+end;
+
+procedure TGameOverScene.TranslateTexts(const Language: string);
+begin
+  inherited;
+
+  if Language = 'fr' then
+  begin
+    txtTitle.Text := 'Game Over';
+    Text1.Text := 'Score final :' + slinebreak +
+      TOkDuckyGameData.Current.Score.ToString;
+  end
+  else
+  begin
+    txtTitle.Text := 'Game Over';
+    Text1.Text := 'Final score :' + slinebreak +
+      TOkDuckyGameData.Current.Score.ToString;
+  end;
 end;
 
 initialization
