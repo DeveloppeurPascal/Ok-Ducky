@@ -25,8 +25,8 @@
 /// https://github.com/DeveloppeurPascal/Ok-Ducky
 ///
 /// ***************************************************************************
-/// File last update : 2025-05-02T19:24:26.000+02:00
-/// Signature : d8db000104aea7defad2392e9d7061e34bd927fc
+/// File last update : 2025-05-03T18:59:20.000+02:00
+/// Signature : 21b20509822061a0f29375d8d60128184ad75e00
 /// ***************************************************************************
 /// </summary>
 
@@ -50,7 +50,8 @@ uses
   _ScenesAncestor,
   FMX.Objects,
   FMX.Layouts,
-  Olf.FMX.TextImageFrame, FMX.Effects;
+  Olf.FMX.TextImageFrame,
+  FMX.Effects;
 
 type
   TGameScene = class(T__SceneAncestor)
@@ -73,6 +74,7 @@ type
     procedure UpdateNbBullets(const Value: Int64);
     function GetImageIndexOfUnknowChar(Sender: TOlfFMXTextImageFrame;
       AChar: char): integer;
+    procedure MiseEnPause;
   public
     procedure ShowScene; override;
     procedure HideScene; override;
@@ -87,7 +89,11 @@ uses
   uconsts,
   uGameData,
   uOkDuckyGameData,
-  udmKenneyNumbers;
+  udmKenneyNumbers,
+  uUIElements,
+  Gamolf.RTL.UIElements,
+  Gamolf.FMX.Joystick,
+  Gamolf.RTL.Joystick;
 
 { TGameScene }
 
@@ -144,6 +150,9 @@ end;
 procedure TGameScene.HideScene;
 begin
   inherited;
+
+  TUIItemsList.Current.RemoveLayout;
+
   TMessageManager.DefaultManager.Unsubscribe(TScoreChangedMessage,
     DoScoreChanged);
   TMessageManager.DefaultManager.Unsubscribe(TNbLivesChangedMessage,
@@ -152,9 +161,33 @@ begin
     DoNbBulletsChanged);
 end;
 
+procedure TGameScene.MiseEnPause;
+begin
+  // TODO : implémenter une vraie mise en pause du jeu (archiver / restaurer la position des canards et leur état)
+  // TOkDuckyGameData.Current.PauseGame;
+  // TScene.Current := TSceneType.Home;
+
+  TOkDuckyGameData.Current.StopGame;
+  TScene.Current := TSceneType.GameOver;
+end;
+
 procedure TGameScene.ShowScene;
+var
+  UIItem: TUIElement;
 begin
   inherited;
+
+  TUIItemsList.Current.NewLayout;
+  UIItem := TUIItemsList.Current.AddUIItem(
+    procedure(const Sender: TObject)
+    begin
+      MiseEnPause;
+    end);
+  UIItem.KeyShortcuts.Add(vkEscape, #0, []);
+  UIItem.KeyShortcuts.Add(vkHardwareBack, #0, []);
+  UIItem.GamePadButtons := [TJoystickButtons.x];
+  UIItem.TagObject := self;
+
   txtScore.Font := dmKenneyNumbers.ImageList;
   txtScore.OnGetImageIndexOfUnknowChar := GetImageIndexOfUnknowChar;
   txtNbBullets.Font := dmKenneyNumbers.ImageList;
