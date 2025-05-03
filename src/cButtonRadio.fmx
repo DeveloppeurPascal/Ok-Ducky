@@ -1,0 +1,30 @@
+inherited cadRadioButton: TcadRadioButton
+  Size.Width = 50.000000000000000000
+  Size.Height = 50.000000000000000000
+  object rBackground: TRectangle
+    Align = Client
+    Fill.Bitmap.WrapMode = Tile
+    Fill.Kind = Bitmap
+    Locked = True
+    HitTest = False
+    Size.Width = 50.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object rChecked: TRectangle
+      Align = Client
+      Fill.Bitmap.WrapMode = Tile
+      Fill.Kind = Bitmap
+      Locked = True
+      HitTest = False
+      Margins.Left = 12.000000000000000000
+      Margins.Top = 12.000000000000000000
+      Margins.Right = 12.000000000000000000
+      Margins.Bottom = 17.000000000000000000
+      Size.Width = 26.000000000000000000
+      Size.Height = 21.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+    end
+  end
+end
