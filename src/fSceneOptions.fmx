@@ -1,0 +1,71 @@
+inherited OptionsScene: TOptionsScene
+  inherited BoxBackground: TRectangle
+    inherited VertScrollBox1: TVertScrollBox
+      Viewport.Width = 460.000000000000000000
+      Viewport.Height = 350.000000000000000000
+      object lMusicOnOff: TLayout
+        Align = Top
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 20.000000000000000000
+        Size.Width = 420.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        inline rbMusicOnOff: TcadRadioButton
+          Align = MostLeft
+          Size.Width = 50.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          OnClick = rbMusicOnOffClick
+        end
+        object txtMusicOnOff: TText
+          Align = Client
+          HitTest = False
+          Margins.Left = 20.000000000000000000
+          Size.Width = 350.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.HorzAlign = Leading
+        end
+      end
+      object lSoundEffectsOnOff: TLayout
+        Align = Top
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 90.000000000000000000
+        Size.Width = 420.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        inline rbSoundEffectsOnOff: TcadRadioButton
+          Align = MostLeft
+          Size.Width = 50.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          OnClick = rbSoundEffectsOnOffClick
+        end
+        object txtSoundEffectsOnOff: TText
+          Align = Client
+          HitTest = False
+          Margins.Left = 20.000000000000000000
+          Size.Width = 350.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.HorzAlign = Leading
+        end
+      end
+    end
+    inherited lFooter: TLayout
+      inherited btnClose: TcadTextButton
+        OnClick = btnCloseClick
+      end
+    end
+  end
+end
