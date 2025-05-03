@@ -1,0 +1,26 @@
+inherited CreditsScene: TCreditsScene
+  inherited BoxBackground: TRectangle
+    inherited VertScrollBox1: TVertScrollBox
+      Viewport.Width = 500.000000000000000000
+      Viewport.Height = 350.000000000000000000
+      object Text1: TText
+        Align = Top
+        AutoSize = True
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Position.X = 30.000000000000000000
+        Position.Y = 10.000000000000000000
+        Size.Width = 440.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.HorzAlign = Leading
+      end
+    end
+    inherited lFooter: TLayout
+      inherited btnClose: TcadTextButton
+        OnClick = btnCloseClick
+      end
+    end
+  end
+end
