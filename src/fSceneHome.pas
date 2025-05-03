@@ -25,8 +25,8 @@
 /// https://github.com/DeveloppeurPascal/Ok-Ducky
 ///
 /// ***************************************************************************
-/// File last update : 2025-05-02T19:24:20.000+02:00
-/// Signature : ea9e312073d3f351153ac979c1fc4130e78b9a29
+/// File last update : 2025-05-03T18:46:10.000+02:00
+/// Signature : 43b2b53b62feb9dd4ddf72775214365d19ce6cd2
 /// ***************************************************************************
 /// </summary>
 
@@ -99,23 +99,17 @@ end;
 
 procedure THomeScene.btnCreditsClick(Sender: TObject);
 begin
-  // TODO : à compléter
-  ShowMessage('Not available in this version.');
-  // TScene.Current := TSceneType.credits;
+  TScene.Current := TSceneType.Credits;
 end;
 
 procedure THomeScene.btnHallOfFameClick(Sender: TObject);
 begin
-  // TODO : à compléter
-  ShowMessage('Not available in this version.');
-  // TScene.Current := TSceneType.HallOfFame;
+  TScene.Current := TSceneType.HallOfFame;
 end;
 
 procedure THomeScene.btnOptionsClick(Sender: TObject);
 begin
-  // TODO : à compléter
-  ShowMessage('Not available in this version.');
-  // TScene.Current := TSceneType.options;
+  TScene.Current := TSceneType.options;
 end;
 
 procedure THomeScene.btnPlayClick(Sender: TObject);
@@ -136,8 +130,9 @@ var
   i, nb: integer;
   Height1Col, Height2Col, Height3Col: Single;
 begin
+  // TODO : retirer cette méthode qui à priori ne servira à rien sur ce jeu puisue l'affichage des boutons en deux colonnes convient aux tailles des appareils ciblés
 
-  // TODO : à revoir car on part du bas vers le haut et on doit retailler la zone complète
+  // A revoir car on part du bas vers le haut et on doit retailler la zone complète
   Exit;
 
   // This calcul is right only if elements in the TFlowLayout have the same size
@@ -172,7 +167,6 @@ begin
     flButtons.width := CTextButtonWidth * 3
   else
     flButtons.width := CTextButtonWidth * 4;
-  // TODO : revoir l'ordre de déplacement entre contrôles à l'écran selon le nombre de colonnes
 end;
 
 procedure THomeScene.FrameResized(Sender: TObject);
@@ -192,8 +186,11 @@ begin
 
   TUIItemsList.Current.NewLayout;
 
+  // TODO : automatiser le calcul du chainage des boutons selon leur position
+
   if TOkDuckyGameData.Current.IsPaused then
   begin
+    // TODO : revoir entièrement le chainage des autres boutons qui passent de 4/5 à 5/6
     btnContinue.visible := true;
     TUIItemsList.Current.AddControl(btnContinue, nil, btnPlay, btnPlay,
       nil, true);
@@ -203,22 +200,22 @@ begin
   else
   begin
     btnContinue.visible := false;
-    TUIItemsList.Current.AddControl(btnPlay, nil, btnOptions, btnOptions,
+    TUIItemsList.Current.AddControl(btnPlay, nil, btnOptions, btnHallOfFame,
       nil, true);
   end;
-  TUIItemsList.Current.AddControl(btnOptions, btnPlay, btnHallOfFame,
-    btnHallOfFame, btnPlay);
-  TUIItemsList.Current.AddControl(btnHallOfFame, btnOptions, btnCredits,
-    btnCredits, btnOptions);
+  TUIItemsList.Current.AddControl(btnOptions, nil, nil, btnCredits, btnPlay);
 {$IF Defined(IOS) or Defined(ANDROID)}
-  TUIItemsList.Current.AddControl(btnCredits, btnHallOfFame, nil, nil,
+  TUIItemsList.Current.AddControl(btnHallOfFame, btnPlay, btnCredits, nil, nil);
+  TUIItemsList.Current.AddControl(btnCredits, btnOptions, nil, nil,
     btnHallOfFame);
   TUIItemsList.Current.AddQuit;
   btnQuit.visible := false;
 {$ELSE}
-  TUIItemsList.Current.AddControl(btnCredits, btnHallOfFame, btnQuit, btnQuit,
+  TUIItemsList.Current.AddControl(btnHallOfFame, btnPlay, btnCredits,
+    btnQuit, nil);
+  TUIItemsList.Current.AddControl(btnCredits, btnOptions, nil, nil,
     btnHallOfFame);
-  TUIItemsList.Current.AddControl(btnQuit, btnCredits, nil, nil, btnCredits,
+  TUIItemsList.Current.AddControl(btnQuit, btnHallOfFame, nil, nil, nil,
     false, true);
 {$ENDIF}
   CalcButtonLayout;
