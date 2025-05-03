@@ -25,8 +25,8 @@
 /// https://github.com/DeveloppeurPascal/Ok-Ducky
 ///
 /// ***************************************************************************
-/// File last update : 2025-05-02T17:55:00.000+02:00
-/// Signature : 994cf3b1f7dde3e1bc1607c85f2813b08342fe68
+/// File last update : 2025-05-03T18:04:40.000+02:00
+/// Signature : c65bc29ccaaef5be50cd0646a2d00a681f34f317
 /// ***************************************************************************
 /// </summary>
 
@@ -82,7 +82,6 @@ uses
   uOkDuckyGameData in 'uOkDuckyGameData.pas',
   fSceneHome in 'fSceneHome.pas' {HomeScene: TFrame},
   fSceneGame in 'fSceneGame.pas' {GameScene: TFrame},
-  fSceneGameOver in 'fSceneGameOver.pas' {GameOverScene: TFrame},
   udmKenneyNumbers in '..\assets\Kenney.nl\ShootingGallery\KenneyNumbers\udmKenneyNumbers.pas' {dmKenneyNumbers: TDataModule},
   USVGShootingGallery in '..\assets\Kenney.nl\ShootingGallery\ShootingGallery\USVGShootingGallery.pas',
   udmAdobeStock_431308055 in '..\_PRIVATE\assets\AdobeStock_431308055\udmAdobeStock_431308055.pas' {dmAdobeStock_431308055: TDataModule},
@@ -90,7 +89,14 @@ uses
   Olf.FMX.TextImageFrame in '..\lib-externes\librairies\src\Olf.FMX.TextImageFrame.pas' {OlfFMXTextImageFrame: TFrame},
   udmAdobeStock_119031485 in '..\_PRIVATE\assets\AdobeStock_119031485\udmAdobeStock_119031485.pas' {dmAdobeStock_119031485: TDataModule},
   USVGUIAdventurePack in '..\assets\Kenney.nl\UI Adventure Pack\USVGUIAdventurePack.pas',
-  cButtonText in 'cButtonText.pas' {cadTextButton: TFrame};
+  cButtonText in 'cButtonText.pas' {cadTextButton: TFrame},
+  cDialogBox in 'cDialogBox.pas' {cadDialogBox: TFrame},
+  fSceneGameOver in 'fSceneGameOver.pas' {GameOverScene: TFrame},
+  fSceneCredits in 'fSceneCredits.pas' {CreditsScene: TFrame},
+  uOkDuckyScores in 'uOkDuckyScores.pas',
+  fSceneHallOfFame in 'fSceneHallOfFame.pas' {HallOfFameScene: TFrame},
+  fSceneOptions in 'fSceneOptions.pas' {OptionsScene: TFrame},
+  cButtonRadio in 'cButtonRadio.pas' {cadRadioButton: TFrame};
 
 {$R *.res}
 
