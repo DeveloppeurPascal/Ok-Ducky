@@ -1,0 +1,84 @@
+inherited cadDialogBox: TcadDialogBox
+  Size.Width = 939.000000000000000000
+  Size.Height = 630.000000000000000000
+  object DialogBackground: TRectangle
+    Align = Contents
+    Fill.Color = claBisque
+    Locked = True
+    Opacity = 0.300000011920929000
+    Size.Width = 939.000000000000000000
+    Size.Height = 630.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+  object BoxBackground: TRectangle
+    Align = Center
+    Fill.Bitmap.WrapMode = TileStretch
+    Fill.Kind = Bitmap
+    Locked = True
+    HitTest = False
+    Size.Width = 500.000000000000000000
+    Size.Height = 500.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object VertScrollBox1: TVertScrollBox
+      Align = Client
+      Locked = True
+      Padding.Left = 10.000000000000000000
+      Padding.Top = 10.000000000000000000
+      Padding.Right = 10.000000000000000000
+      Padding.Bottom = 10.000000000000000000
+      Margins.Left = 20.000000000000000000
+      Margins.Right = 20.000000000000000000
+      Size.Width = 460.000000000000000000
+      Size.Height = 350.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Viewport.Width = 460.000000000000000000
+      Viewport.Height = 350.000000000000000000
+    end
+    object lHeader: TLayout
+      Align = Top
+      Locked = True
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 40.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 40.000000000000000000
+      Size.Width = 480.000000000000000000
+      Size.Height = 60.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      inline txtTitle: TOlfFMXTextImageFrame
+        Align = Center
+        Locked = True
+        HitTest = False
+        Size.Width = 320.000000000000000000
+        Size.Height = 60.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object lFooter: TLayout
+      Align = Bottom
+      Locked = True
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = -20.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 470.000000000000000000
+      Size.Width = 480.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      inline btnClose: TcadTextButton
+        Align = Center
+        Locked = True
+        Size.Width = 245.000000000000000000
+        Size.Height = 74.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+  end
+end
