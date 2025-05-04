@@ -25,8 +25,8 @@
 /// https://github.com/DeveloppeurPascal/Ok-Ducky
 ///
 /// ***************************************************************************
-/// File last update : 2025-05-02T19:15:26.000+02:00
-/// Signature : 4d2992d6e62eb6d9fd24aba820ae3de91bb1261f
+/// File last update : 2025-05-04T14:39:06.000+02:00
+/// Signature : 429a56c2ab1157cc618e2e8a9c90e81dcfe61263
 /// ***************************************************************************
 /// </summary>
 
@@ -147,7 +147,8 @@ begin
 
     // Calcul du score
     TOkDuckyGameData.Current.Score := TOkDuckyGameData.Current.Score +
-      TOkDuckyGameData.Current.Level;
+      ((TOkDuckyGameData.Current.Level - 1) div 5) + 1;
+    // +1 pour les 6, 11, 16... canards touchés
     TOkDuckyGameData.Current.Level := TOkDuckyGameData.Current.Level + 1;
 
     // Calcul du nombre de munitions (à ajouter ou perdre)
@@ -246,7 +247,7 @@ begin
 end;
 
 procedure TSceneBackground.ZIndex00_FondMouseDown(Sender: TObject;
-  Button: TMouseButton; Shift: TShiftState; X, Y: Single);
+Button: TMouseButton; Shift: TShiftState; X, Y: Single);
 begin
   // On tire sur le fond du stand, on a donc loupé les cibles.
   if TOkDuckyGameData.Current.IsPlaying and
