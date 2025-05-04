@@ -25,8 +25,8 @@
 /// https://github.com/DeveloppeurPascal/Ok-Ducky
 ///
 /// ***************************************************************************
-/// File last update : 2025-05-04T14:39:06.000+02:00
-/// Signature : 429a56c2ab1157cc618e2e8a9c90e81dcfe61263
+/// File last update : 2025-05-04T15:14:18.000+02:00
+/// Signature : c43a125b4993802482d3e79bea5a2a71d3dd4e1f
 /// ***************************************************************************
 /// </summary>
 
@@ -120,7 +120,16 @@ procedure TSceneBackground.AjouteCanard(Zone: TLayout; DecalageY: integer;
   VersLaGauche: boolean);
 var
   Canard: TSpriteCanard;
+  I: integer;
 begin
+  for I := 0 to Zone.ChildrenCount - 1 do
+    if (Zone.Children[I] is TSpriteCanard) then
+      if ((Zone.Children[I] as TSpriteCanard).Position.X <=
+        (Zone.Children[I] as TSpriteCanard).Width) or
+        ((Zone.Children[I] as TSpriteCanard).Position.X >= Zone.Width -
+        (Zone.Children[I] as TSpriteCanard).Width) then
+        exit;
+
   Canard := TSpriteCanard.Create(self);
   Canard.Parent := Zone;
   Canard.Tag := DecalageY;
@@ -128,9 +137,9 @@ begin
   Canard.onGetDecalageHauteurCanard := DecalageHauteurCanards;
   Canard.onClicSurCanard := ClicSurCanard;
   if VersLaGauche then
-    Canard.BougeLeCanardDeDroiteAGauche(false)
+    Canard.BougeLeCanardDeDroiteAGauche(true)
   else
-    Canard.BougeLeCanardDeGaucheADroite(false);
+    Canard.BougeLeCanardDeGaucheADroite(true);
 end;
 
 procedure TSceneBackground.ClicSurCanard(Canard: TSpriteCanard);
@@ -187,20 +196,20 @@ end;
 
 procedure TSceneBackground.FrameResized(Sender: TObject);
 var
-  i: integer;
+  I: integer;
 begin
   InitialiseTailleElementsDecor;
-  for i := 0 to ZIndex03_Canards.ChildrenCount - 1 do
-    if (ZIndex03_Canards.Children[i] is TSpriteCanard) then
-      (ZIndex03_Canards.Children[i] as TSpriteCanard)
+  for I := 0 to ZIndex03_Canards.ChildrenCount - 1 do
+    if (ZIndex03_Canards.Children[I] is TSpriteCanard) then
+      (ZIndex03_Canards.Children[I] as TSpriteCanard)
         .InitialiseZoneDeDeplacement;
-  for i := 0 to ZIndex05_Canards.ChildrenCount - 1 do
-    if (ZIndex05_Canards.Children[i] is TSpriteCanard) then
-      (ZIndex05_Canards.Children[i] as TSpriteCanard)
+  for I := 0 to ZIndex05_Canards.ChildrenCount - 1 do
+    if (ZIndex05_Canards.Children[I] is TSpriteCanard) then
+      (ZIndex05_Canards.Children[I] as TSpriteCanard)
         .InitialiseZoneDeDeplacement;
-  for i := 0 to ZIndex07_Canards.ChildrenCount - 1 do
-    if (ZIndex07_Canards.Children[i] is TSpriteCanard) then
-      (ZIndex07_Canards.Children[i] as TSpriteCanard)
+  for I := 0 to ZIndex07_Canards.ChildrenCount - 1 do
+    if (ZIndex07_Canards.Children[I] is TSpriteCanard) then
+      (ZIndex07_Canards.Children[I] as TSpriteCanard)
         .InitialiseZoneDeDeplacement;
 end;
 
