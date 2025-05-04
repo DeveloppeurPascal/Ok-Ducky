@@ -25,8 +25,8 @@
 /// https://github.com/DeveloppeurPascal/Ok-Ducky
 ///
 /// ***************************************************************************
-/// File last update : 2025-05-03T18:33:58.000+02:00
-/// Signature : 4b50d94b5019b68b8597e96d7b9d559bb4780db3
+/// File last update : 2025-05-04T15:35:42.000+02:00
+/// Signature : a9562aab413651fd7034aaeb19dd637b870e5806
 /// ***************************************************************************
 /// </summary>
 
@@ -84,7 +84,16 @@ var
 begin
   if IsFocused then
   begin
-    bg := TSVGUIAdventurePackIndex.ButtonRoundBrown;
+    if isdown then
+    begin
+      rBackground.margins.top := 5;
+      bg := TSVGUIAdventurePackIndex.ButtonRoundBrownDown;
+    end
+    else
+    begin
+      rBackground.margins.top := 0;
+      bg := TSVGUIAdventurePackIndex.ButtonRoundBrown;
+    end;
     cb := TSVGUIAdventurePackIndex.IconCircleBeige;
   end
   else
@@ -98,6 +107,10 @@ begin
 
   if IsChecked then
   begin
+    if isdown then
+      rChecked.margins.bottom := 12
+    else
+      rChecked.margins.bottom := 17;
     rChecked.Fill.Bitmap.Bitmap.Assign(getBitmapFromSVG(cb, rChecked.width,
       rChecked.height, rChecked.Fill.Bitmap.Bitmap.BitmapScale));
     rChecked.visible := true;
