@@ -25,8 +25,8 @@
 /// https://github.com/DeveloppeurPascal/Ok-Ducky
 ///
 /// ***************************************************************************
-/// File last update : 2025-05-02T17:30:19.984+02:00
-/// Signature : dc18fa649eb396b085f29e9d5d115786d2bac3ff
+/// File last update : 2025-05-04T15:26:28.830+02:00
+/// Signature : 9191841383a12fd361fffe9c289421dd64133a5f
 /// ***************************************************************************
 /// </summary>
 
@@ -34,7 +34,7 @@ unit USVGUIAdventurePack;
 
 // ****************************************
 // * SVG from folder :
-// * /Users/patrickpremartin/Downloads/UI Adventure Pack/Vector/UI Adventure Pack/uSVGUIAdventurePack.pas
+// * /Users/patrickpremartin/Downloads/__OkDucky/UI Adventure Pack/Vector/UI Adventure Pack/uSVGUIAdventurePack.pas
 // ****************************************
 //
 // This file contains a list of contants and 
@@ -44,7 +44,7 @@ unit USVGUIAdventurePack;
 // ****************************************
 // File generator : SVG Folder to Delphi Unit v1.0
 // Website : https://svgfolder2delphiunit.olfsoftware.fr/
-// Generation date : 2025-05-02T17:30:19.957Z
+// Generation date : 2025-05-04T15:26:28.803Z
 //
 // Don't do any change on this file.
 // They will be erased by next generation !
@@ -69,47 +69,51 @@ const
   CSVGButtonLongBrown = 13;
   CSVGButtonLongGreyPressed = 14;
   CSVGButtonLongGrey = 15;
-  CSVGButtonRoundBeige = 16;
-  CSVGButtonRoundBlue = 17;
-  CSVGButtonRoundBrown = 18;
-  CSVGButtonRoundGrey = 19;
-  CSVGButtonSquareBeigePressed = 20;
-  CSVGButtonSquareBeige = 21;
-  CSVGButtonSquareBluePressed = 22;
-  CSVGButtonSquareBlue = 23;
-  CSVGButtonSquareBrownPressed = 24;
-  CSVGButtonSquareBrown = 25;
-  CSVGButtonSquareGreyPressed = 26;
-  CSVGButtonSquareGrey = 27;
-  CSVGCursorGauntletBronze = 28;
-  CSVGCursorGauntletGrey1 = 29;
-  CSVGCursorGauntletGrey = 30;
-  CSVGCursorHandBeige = 31;
-  CSVGCursorHandBlue = 32;
-  CSVGCursorHandGrey = 33;
-  CSVGCursorSwordBronze = 34;
-  CSVGCursorSwordGold = 35;
-  CSVGCursorSwordSilver = 36;
-  CSVGIconCheckBeige = 37;
-  CSVGIconCheckBlue = 38;
-  CSVGIconCheckBronze = 39;
-  CSVGIconCheckGrey = 40;
-  CSVGIconCircleBeige = 41;
-  CSVGIconCircleBlue = 42;
-  CSVGIconCircleBrown = 43;
-  CSVGIconCircleGrey = 44;
-  CSVGIconCrossBeige = 45;
-  CSVGIconCrossBlue = 46;
-  CSVGIconCrossBrown = 47;
-  CSVGIconCrossGrey = 48;
-  CSVGPanelBeige = 49;
-  CSVGPanelBeigeLight = 50;
-  CSVGPanelBlue = 51;
-  CSVGPanelBrown = 52;
-  CSVGPanelInsetBeige = 53;
-  CSVGPanelInsetBeigeLight = 54;
-  CSVGPanelInsetBlue = 55;
-  CSVGPanelInsetBrown = 56;
+  CSVGButtonRoundBeigeDown = 16;
+  CSVGButtonRoundBeige = 17;
+  CSVGButtonRoundBlueDown = 18;
+  CSVGButtonRoundBlue = 19;
+  CSVGButtonRoundBrownDown = 20;
+  CSVGButtonRoundBrown = 21;
+  CSVGButtonRoundGreyDown = 22;
+  CSVGButtonRoundGrey = 23;
+  CSVGButtonSquareBeigePressed = 24;
+  CSVGButtonSquareBeige = 25;
+  CSVGButtonSquareBluePressed = 26;
+  CSVGButtonSquareBlue = 27;
+  CSVGButtonSquareBrownPressed = 28;
+  CSVGButtonSquareBrown = 29;
+  CSVGButtonSquareGreyPressed = 30;
+  CSVGButtonSquareGrey = 31;
+  CSVGCursorGauntletBronze = 32;
+  CSVGCursorGauntletGrey1 = 33;
+  CSVGCursorGauntletGrey = 34;
+  CSVGCursorHandBeige = 35;
+  CSVGCursorHandBlue = 36;
+  CSVGCursorHandGrey = 37;
+  CSVGCursorSwordBronze = 38;
+  CSVGCursorSwordGold = 39;
+  CSVGCursorSwordSilver = 40;
+  CSVGIconCheckBeige = 41;
+  CSVGIconCheckBlue = 42;
+  CSVGIconCheckBronze = 43;
+  CSVGIconCheckGrey = 44;
+  CSVGIconCircleBeige = 45;
+  CSVGIconCircleBlue = 46;
+  CSVGIconCircleBrown = 47;
+  CSVGIconCircleGrey = 48;
+  CSVGIconCrossBeige = 49;
+  CSVGIconCrossBlue = 50;
+  CSVGIconCrossBrown = 51;
+  CSVGIconCrossGrey = 52;
+  CSVGPanelBeige = 53;
+  CSVGPanelBeigeLight = 54;
+  CSVGPanelBlue = 55;
+  CSVGPanelBrown = 56;
+  CSVGPanelInsetBeige = 57;
+  CSVGPanelInsetBeigeLight = 58;
+  CSVGPanelInsetBlue = 59;
+  CSVGPanelInsetBrown = 60;
 
 type
 {$SCOPEDENUMS ON}
@@ -130,9 +134,13 @@ type
     ButtonLongBrown = CSVGButtonLongBrown,
     ButtonLongGreyPressed = CSVGButtonLongGreyPressed,
     ButtonLongGrey = CSVGButtonLongGrey,
+    ButtonRoundBeigeDown = CSVGButtonRoundBeigeDown,
     ButtonRoundBeige = CSVGButtonRoundBeige,
+    ButtonRoundBlueDown = CSVGButtonRoundBlueDown,
     ButtonRoundBlue = CSVGButtonRoundBlue,
+    ButtonRoundBrownDown = CSVGButtonRoundBrownDown,
     ButtonRoundBrown = CSVGButtonRoundBrown,
+    ButtonRoundGreyDown = CSVGButtonRoundGreyDown,
     ButtonRoundGrey = CSVGButtonRoundGrey,
     ButtonSquareBeigePressed = CSVGButtonSquareBeigePressed,
     ButtonSquareBeige = CSVGButtonSquareBeige,
@@ -202,9 +210,13 @@ type
     ButtonLongBrown = CSVGButtonLongBrown;
     ButtonLongGreyPressed = CSVGButtonLongGreyPressed;
     ButtonLongGrey = CSVGButtonLongGrey;
+    ButtonRoundBeigeDown = CSVGButtonRoundBeigeDown;
     ButtonRoundBeige = CSVGButtonRoundBeige;
+    ButtonRoundBlueDown = CSVGButtonRoundBlueDown;
     ButtonRoundBlue = CSVGButtonRoundBlue;
+    ButtonRoundBrownDown = CSVGButtonRoundBrownDown;
     ButtonRoundBrown = CSVGButtonRoundBrown;
+    ButtonRoundGreyDown = CSVGButtonRoundGreyDown;
     ButtonRoundGrey = CSVGButtonRoundGrey;
     ButtonSquareBeigePressed = CSVGButtonSquareBeigePressed;
     ButtonSquareBeige = CSVGButtonSquareBeige;
@@ -319,7 +331,7 @@ end;
 
 initialization
 
-SetLength(SVGUIAdventurePack, 57);
+SetLength(SVGUIAdventurePack, 61);
 
 {$TEXTBLOCK NATIVE XML}
 SVGUIAdventurePack[CSVGArrowBeigeLeft] := '''
@@ -378,17 +390,33 @@ SVGUIAdventurePack[CSVGButtonLongGrey] := '''
 <?xml version="1.0" encoding="UTF-8"?><svg id="Calque_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 49"><g id="Calque_1-2"><path d="M187.95,5.05l.05.95v33c0,2.67-1.33,4-4,4H6c-2.67,0-4-1.33-4-4V6l.1-.95c.27-2.03,1.57-3.05,3.9-3.05h178c2.33,0,3.65,1.02,3.95,3.05M186,5.35c-.23-.9-.9-1.35-2-1.35H42.5l-2.8,2.8-2.8-2.8h-9.35l-2.25,2.25-2.25-2.25H6c-1.1,0-1.73.43-1.9,1.3l-.05.2-.05.5v23.9l2.75,2.75-2.75,2.75v3.6c0,1.33.67,2,2,2h91.9l2.75-2.75,2.75,2.75h42.55l1.55-1.55,1.55,1.55h34.95c1.33,0,2-.67,2-2v-22.9l-2.4-2.4,2.4-2.4v-5.3l-.05-.7.05.05" fill="#cbcbcb"/><path d="M187.95,5.05c-.3-2.03-1.62-3.05-3.95-3.05H6c-2.33,0-3.63,1.02-3.9,3.05l-.1.95v33c0,2.67,1.33,4,4,4h178c2.67,0,4-1.33,4-4V6l-.05-.95M0,39.25V6C0,2,2,0,6,0h178c4,0,6,2,6,6v33.25c-.1,3.83-2.1,5.75-6,5.75H6c-3.9,0-5.9-1.92-6-5.75" fill="#e9e9e9"/><path
 d="M186,5.35l-.05-.05.05.7v5.3l-2.4,2.4,2.4,2.4v22.9c0,1.33-.67,2-2,2h-34.95l-1.55-1.55-1.55,1.55h-42.55l-2.75-2.75-2.75,2.75H6c-1.33,0-2-.67-2-2v-3.6l2.75-2.75-2.75-2.75V6l.05-.5.05-.2c.17-.87.8-1.3,1.9-1.3h17.05l2.25,2.25,2.25-2.25h9.35l2.8,2.8,2.8-2.8h141.5c1.1,0,1.77.45,2,1.35" fill="#e5e5e5"/><path d="M190,39.25v3.75c0,4-2,6-6,6H6c-4,0-6-2-6-6v-3.75c.1,3.83,2.1,5.75,6,5.75h178c3.9,0,5.9-1.92,6-5.75" fill="#c2c2c2"/></g></svg>
 ''';
+SVGUIAdventurePack[CSVGButtonRoundBeigeDown] := '''
+<?xml version="1.0" encoding="UTF-8"?><svg id="Calque_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35"><g id="Calque_1-2"><path d="M28.5,6.5c-3.03-3.03-6.7-4.55-11-4.55-4.27,0-7.93,1.52-11,4.55-3.03,3.07-4.55,6.73-4.55,11,0,4.3,1.52,7.97,4.55,11,3.03,3,6.7,4.5,11,4.5s7.92-1.5,10.95-4.5l.05-.05c3-3.03,4.5-6.68,4.5-10.95s-1.5-7.97-4.5-11M0,18v-.5c0-4.83,1.68-8.97,5.05-12.4l.05-.05C8.53,1.68,12.67,0,17.5,0s8.95,1.68,12.35,5.05v.05c3.43,3.43,5.15,7.57,5.15,12.4v.5c-.13,4.63-1.85,8.58-5.15,11.85-3.4,3.43-7.52,5.15-12.35,5.15s-8.97-1.72-12.4-5.15h-.05C1.82,26.58.13,22.63,0,18" fill="#d9cdaf"/><path
+d="M28.5,6.5c3,3.03,4.5,6.7,4.5,11s-1.5,7.92-4.5,10.95l-.05.05c-3.03,3-6.68,4.5-10.95,4.5s-7.97-1.5-11-4.5c-3.03-3.03-4.55-6.7-4.55-11,0-4.27,1.52-7.93,4.55-11,3.07-3.03,6.73-4.55,11-4.55,4.3,0,7.97,1.52,11,4.55M27.05,7.85c-2.63-2.6-5.82-3.9-9.55-3.9-3.77,0-6.98,1.3-9.65,3.9-2.6,2.67-3.9,5.88-3.9,9.65,0,3.73,1.3,6.92,3.9,9.55,2.67,2.67,5.88,4,9.65,4,3.73,0,6.92-1.33,9.55-4,2.67-2.63,4-5.82,4-9.55,0-3.77-1.33-6.98-4-9.65" fill="#b1a077"/><path d="M27.05,7.85c2.67,2.67,4,5.88,4,9.65,0,3.73-1.33,6.92-4,9.55-2.63,2.67-5.82,4-9.55,4-3.77,0-6.98-1.33-9.65-4-2.6-2.63-3.9-5.82-3.9-9.55,0-3.77,1.3-6.98,3.9-9.65,2.67-2.6,5.88-3.9,9.65-3.9,3.73,0,6.92,1.3,9.55,3.9" fill="#d3bf8f"/></g></svg>
+''';
 SVGUIAdventurePack[CSVGButtonRoundBeige] := '''
 <?xml version="1.0" encoding="UTF-8"?><svg id="Calque_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 38"><g id="Calque_1-2"><path d="M28.5,6.5c-3.03-3.03-6.7-4.55-11-4.55-4.27,0-7.93,1.52-11,4.55-3.03,3.07-4.55,6.73-4.55,11,0,4.3,1.52,7.97,4.55,11,3.03,3,6.7,4.5,11,4.5s7.92-1.5,10.95-4.5l.05-.05c3-3.03,4.5-6.68,4.5-10.95s-1.5-7.97-4.5-11M0,18v-.5c0-4.83,1.68-8.97,5.05-12.4l.05-.05C8.53,1.68,12.67,0,17.5,0s8.95,1.68,12.35,5.05v.05c3.43,3.43,5.15,7.57,5.15,12.4v.5c-.13,4.63-1.85,8.58-5.15,11.85-3.4,3.43-7.52,5.15-12.35,5.15s-8.97-1.72-12.4-5.15h-.05C1.82,26.58.13,22.63,0,18" fill="#d9cdaf"/><path
 d="M28.5,6.5c3,3.03,4.5,6.7,4.5,11s-1.5,7.92-4.5,10.95l-.05.05c-3.03,3-6.68,4.5-10.95,4.5s-7.97-1.5-11-4.5c-3.03-3.03-4.55-6.7-4.55-11,0-4.27,1.52-7.93,4.55-11,3.07-3.03,6.73-4.55,11-4.55,4.3,0,7.97,1.52,11,4.55M27.05,7.85c-2.63-2.6-5.82-3.9-9.55-3.9-3.77,0-6.98,1.3-9.65,3.9-2.6,2.67-3.9,5.88-3.9,9.65,0,3.73,1.3,6.92,3.9,9.55,2.67,2.67,5.88,4,9.65,4,3.73,0,6.92-1.33,9.55-4,2.67-2.63,4-5.82,4-9.55,0-3.77-1.33-6.98-4-9.65" fill="#b1a077"/><path d="M27.05,7.85c2.67,2.67,4,5.88,4,9.65,0,3.73-1.33,6.92-4,9.55-2.63,2.67-5.82,4-9.55,4-3.77,0-6.98-1.33-9.65-4-2.6-2.63-3.9-5.82-3.9-9.55,0-3.77,1.3-6.98,3.9-9.65,2.67-2.6,5.88-3.9,9.65-3.9,3.73,0,6.92,1.3,9.55,3.9" fill="#d3bf8f"/><path d="M35,18v2.5c0,4.83-1.72,8.95-5.15,12.35-3.4,3.43-7.52,5.15-12.35,5.15s-8.97-1.72-12.4-5.15h-.05C1.68,29.45,0,25.33,0,20.5v-2.5c.13,4.63,1.82,8.58,5.05,11.85h.05c3.43,3.43,7.57,5.15,12.4,5.15s8.95-1.72,12.35-5.15c3.3-3.27,5.02-7.22,5.15-11.85"/></g></svg>
+''';
+SVGUIAdventurePack[CSVGButtonRoundBlueDown] := '''
+<?xml version="1.0" encoding="UTF-8"?><svg id="Calque_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35"><g id="Calque_1-2"><path d="M0,18v-.5c0-4.83,1.68-8.97,5.05-12.4l.05-.05C8.53,1.68,12.67,0,17.5,0s8.95,1.68,12.35,5.05v.05c3.43,3.43,5.15,7.57,5.15,12.4v.5c-.13,4.63-1.85,8.58-5.15,11.85-3.4,3.43-7.52,5.15-12.35,5.15s-8.97-1.72-12.4-5.15h-.05C1.82,26.58.13,22.63,0,18M17.5,1.95c-4.27,0-7.93,1.52-11,4.55-3.03,3.07-4.55,6.73-4.55,11s1.52,7.97,4.55,11c3.03,3,6.7,4.5,11,4.5s7.92-1.5,10.95-4.5l.05-.05c3-3.03,4.5-6.68,4.5-10.95s-1.5-7.97-4.5-11c-3.03-3.03-6.7-4.55-11-4.55" fill="#727685"/><path
+d="M17.5,1.95c4.3,0,7.97,1.52,11,4.55,3,3.03,4.5,6.7,4.5,11s-1.5,7.92-4.5,10.95l-.05.05c-3.03,3-6.68,4.5-10.95,4.5s-7.97-1.5-11-4.5c-3.03-3.03-4.55-6.7-4.55-11s1.52-7.93,4.55-11c3.07-3.03,6.73-4.55,11-4.55M17.5,3.95c-3.77,0-6.98,1.3-9.65,3.9-2.6,2.67-3.9,5.88-3.9,9.65s1.3,6.92,3.9,9.55c2.67,2.67,5.88,4,9.65,4,3.73,0,6.92-1.33,9.55-4,2.67-2.63,4-5.82,4-9.55s-1.33-6.98-4-9.65c-2.63-2.6-5.82-3.9-9.55-3.9" fill="#9b9dad"/><path d="M17.5,3.95c3.73,0,6.92,1.3,9.55,3.9,2.67,2.67,4,5.88,4,9.65s-1.33,6.92-4,9.55c-2.63,2.67-5.82,4-9.55,4-3.77,0-6.98-1.33-9.65-4-2.6-2.63-3.9-5.82-3.9-9.55s1.3-6.98,3.9-9.65c2.67-2.6,5.88-3.9,9.65-3.9" fill="#838796"/></g></svg>
 ''';
 SVGUIAdventurePack[CSVGButtonRoundBlue] := '''
 <?xml version="1.0" encoding="UTF-8"?><svg id="Calque_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 38"><g id="Calque_1-2"><path d="M0,18v-.5c0-4.83,1.68-8.97,5.05-12.4l.05-.05C8.53,1.68,12.67,0,17.5,0s8.95,1.68,12.35,5.05v.05c3.43,3.43,5.15,7.57,5.15,12.4v.5c-.13,4.63-1.85,8.58-5.15,11.85-3.4,3.43-7.52,5.15-12.35,5.15s-8.97-1.72-12.4-5.15h-.05C1.82,26.58.13,22.63,0,18M17.5,1.95c-4.27,0-7.93,1.52-11,4.55-3.03,3.07-4.55,6.73-4.55,11s1.52,7.97,4.55,11c3.03,3,6.7,4.5,11,4.5s7.92-1.5,10.95-4.5l.05-.05c3-3.03,4.5-6.68,4.5-10.95s-1.5-7.97-4.5-11c-3.03-3.03-6.7-4.55-11-4.55" fill="#727685"/><path
 d="M17.5,1.95c4.3,0,7.97,1.52,11,4.55,3,3.03,4.5,6.7,4.5,11s-1.5,7.92-4.5,10.95l-.05.05c-3.03,3-6.68,4.5-10.95,4.5s-7.97-1.5-11-4.5c-3.03-3.03-4.55-6.7-4.55-11s1.52-7.93,4.55-11c3.07-3.03,6.73-4.55,11-4.55M17.5,3.95c-3.77,0-6.98,1.3-9.65,3.9-2.6,2.67-3.9,5.88-3.9,9.65s1.3,6.92,3.9,9.55c2.67,2.67,5.88,4,9.65,4,3.73,0,6.92-1.33,9.55-4,2.67-2.63,4-5.82,4-9.55s-1.33-6.98-4-9.65c-2.63-2.6-5.82-3.9-9.55-3.9" fill="#9b9dad"/><path d="M17.5,3.95c3.73,0,6.92,1.3,9.55,3.9,2.67,2.67,4,5.88,4,9.65s-1.33,6.92-4,9.55c-2.63,2.67-5.82,4-9.55,4-3.77,0-6.98-1.33-9.65-4-2.6-2.63-3.9-5.82-3.9-9.55s1.3-6.98,3.9-9.65c2.67-2.6,5.88-3.9,9.65-3.9" fill="#838796"/><path d="M35,18v2.5c0,4.83-1.72,8.95-5.15,12.35-3.4,3.43-7.52,5.15-12.35,5.15s-8.97-1.72-12.4-5.15h-.05C1.68,29.45,0,25.33,0,20.5v-2.5c.13,4.63,1.82,8.58,5.05,11.85h.05c3.43,3.43,7.57,5.15,12.4,5.15s8.95-1.72,12.35-5.15c3.3-3.27,5.02-7.22,5.15-11.85"/></g></svg>
 ''';
+SVGUIAdventurePack[CSVGButtonRoundBrownDown] := '''
+<?xml version="1.0" encoding="UTF-8"?><svg id="Calque_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35"><g id="Calque_1-2"><path d="M0,18v-.5c0-4.83,1.68-8.97,5.05-12.4l.05-.05C8.53,1.68,12.67,0,17.5,0s8.95,1.68,12.35,5.05v.05c3.43,3.43,5.15,7.57,5.15,12.4v.5c-.13,4.63-1.85,8.58-5.15,11.85-3.4,3.43-7.52,5.15-12.35,5.15s-8.97-1.72-12.4-5.15h-.05C1.82,26.58.13,22.63,0,18M1.95,17.5c0,4.3,1.52,7.97,4.55,11,3.03,3,6.7,4.5,11,4.5s7.92-1.5,10.95-4.5l.05-.05c3-3.03,4.5-6.68,4.5-10.95s-1.5-7.97-4.5-11c-3.03-3.03-6.7-4.55-11-4.55-4.27,0-7.93,1.52-11,4.55-3.03,3.07-4.55,6.73-4.55,11" fill="#864"/><path
+d="M3.95,17.5c0,3.73,1.3,6.92,3.9,9.55,2.67,2.67,5.88,4,9.65,4,3.73,0,6.92-1.33,9.55-4,2.67-2.63,4-5.82,4-9.55s-1.33-6.98-4-9.65c-2.63-2.6-5.82-3.9-9.55-3.9-3.77,0-6.98,1.3-9.65,3.9-2.6,2.67-3.9,5.88-3.9,9.65M1.95,17.5c0-4.27,1.52-7.93,4.55-11,3.07-3.03,6.73-4.55,11-4.55,4.3,0,7.97,1.52,11,4.55,3,3.03,4.5,6.7,4.5,11s-1.5,7.92-4.5,10.95l-.05.05c-3.03,3-6.68,4.5-10.95,4.5s-7.97-1.5-11-4.5c-3.03-3.03-4.55-6.7-4.55-11" fill="#b7916a"/><path d="M3.95,17.5c0-3.77,1.3-6.98,3.9-9.65,2.67-2.6,5.88-3.9,9.65-3.9,3.73,0,6.92,1.3,9.55,3.9,2.67,2.67,4,5.88,4,9.65s-1.33,6.92-4,9.55c-2.63,2.67-5.82,4-9.55,4-3.77,0-6.98-1.33-9.65-4-2.6-2.63-3.9-5.82-3.9-9.55" fill="#97714a"/></g></svg>
+''';
 SVGUIAdventurePack[CSVGButtonRoundBrown] := '''
 <?xml version="1.0" encoding="UTF-8"?><svg id="Calque_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 38"><g id="Calque_1-2"><path d="M0,18v-.5c0-4.83,1.68-8.97,5.05-12.4l.05-.05C8.53,1.68,12.67,0,17.5,0s8.95,1.68,12.35,5.05v.05c3.43,3.43,5.15,7.57,5.15,12.4v.5c-.13,4.63-1.85,8.58-5.15,11.85-3.4,3.43-7.52,5.15-12.35,5.15s-8.97-1.72-12.4-5.15h-.05C1.82,26.58.13,22.63,0,18M1.95,17.5c0,4.3,1.52,7.97,4.55,11,3.03,3,6.7,4.5,11,4.5s7.92-1.5,10.95-4.5l.05-.05c3-3.03,4.5-6.68,4.5-10.95s-1.5-7.97-4.5-11c-3.03-3.03-6.7-4.55-11-4.55-4.27,0-7.93,1.52-11,4.55-3.03,3.07-4.55,6.73-4.55,11" fill="#864"/><path d="M35,18v2.5c0,4.83-1.72,8.95-5.15,12.35-3.4,3.43-7.52,5.15-12.35,5.15s-8.97-1.72-12.4-5.15h-.05C1.68,29.45,0,25.33,0,20.5v-2.5c.13,4.63,1.82,8.58,5.05,11.85h.05c3.43,3.43,7.57,5.15,12.4,5.15s8.95-1.72,12.35-5.15c3.3-3.27,5.02-7.22,5.15-11.85"/><path
 d="M3.95,17.5c0,3.73,1.3,6.92,3.9,9.55,2.67,2.67,5.88,4,9.65,4,3.73,0,6.92-1.33,9.55-4,2.67-2.63,4-5.82,4-9.55s-1.33-6.98-4-9.65c-2.63-2.6-5.82-3.9-9.55-3.9-3.77,0-6.98,1.3-9.65,3.9-2.6,2.67-3.9,5.88-3.9,9.65M1.95,17.5c0-4.27,1.52-7.93,4.55-11,3.07-3.03,6.73-4.55,11-4.55,4.3,0,7.97,1.52,11,4.55,3,3.03,4.5,6.7,4.5,11s-1.5,7.92-4.5,10.95l-.05.05c-3.03,3-6.68,4.5-10.95,4.5s-7.97-1.5-11-4.5c-3.03-3.03-4.55-6.7-4.55-11" fill="#b7916a"/><path d="M3.95,17.5c0-3.77,1.3-6.98,3.9-9.65,2.67-2.6,5.88-3.9,9.65-3.9,3.73,0,6.92,1.3,9.55,3.9,2.67,2.67,4,5.88,4,9.65s-1.33,6.92-4,9.55c-2.63,2.67-5.82,4-9.55,4-3.77,0-6.98-1.33-9.65-4-2.6-2.63-3.9-5.82-3.9-9.55" fill="#97714a"/></g></svg>
+''';
+SVGUIAdventurePack[CSVGButtonRoundGreyDown] := '''
+<?xml version="1.0" encoding="UTF-8"?><svg id="Calque_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35"><g id="Calque_1-2"><path d="M17.5,1.95c4.3,0,7.97,1.52,11,4.55,3,3.03,4.5,6.7,4.5,11s-1.5,7.92-4.5,10.95l-.05.05c-3.03,3-6.68,4.5-10.95,4.5s-7.97-1.5-11-4.5c-3.03-3.03-4.55-6.7-4.55-11,0-4.27,1.52-7.93,4.55-11,3.07-3.03,6.73-4.55,11-4.55M17.5,3.95c-3.77,0-6.98,1.3-9.65,3.9-2.6,2.67-3.9,5.88-3.9,9.65,0,3.73,1.3,6.92,3.9,9.55,2.67,2.67,5.88,4,9.65,4,3.73,0,6.92-1.33,9.55-4,2.67-2.63,4-5.82,4-9.55,0-3.77-1.33-6.98-4-9.65-2.63-2.6-5.82-3.9-9.55-3.9" fill="#cbcbcb"/><path d="M17.5,3.95c3.73,0,6.92,1.3,9.55,3.9,2.67,2.67,4,5.88,4,9.65,0,3.73-1.33,6.92-4,9.55-2.63,2.67-5.82,4-9.55,4-3.77,0-6.98-1.33-9.65-4-2.6-2.63-3.9-5.82-3.9-9.55,0-3.77,1.3-6.98,3.9-9.65,2.67-2.6,5.88-3.9,9.65-3.9" fill="#e5e5e5"/><path
+d="M0,18v-.5c0-4.83,1.68-8.97,5.05-12.4l.05-.05C8.53,1.68,12.67,0,17.5,0s8.95,1.68,12.35,5.05v.05c3.43,3.43,5.15,7.57,5.15,12.4v.5c-.13,4.63-1.85,8.58-5.15,11.85-3.4,3.43-7.52,5.15-12.35,5.15s-8.97-1.72-12.4-5.15h-.05C1.82,26.58.13,22.63,0,18M17.5,1.95c-4.27,0-7.93,1.52-11,4.55-3.03,3.07-4.55,6.73-4.55,11,0,4.3,1.52,7.97,4.55,11,3.03,3,6.7,4.5,11,4.5s7.92-1.5,10.95-4.5l.05-.05c3-3.03,4.5-6.68,4.5-10.95s-1.5-7.97-4.5-11c-3.03-3.03-6.7-4.55-11-4.55" fill="#e9e9e9"/></g></svg>
 ''';
 SVGUIAdventurePack[CSVGButtonRoundGrey] := '''
 <?xml version="1.0" encoding="UTF-8"?><svg id="Calque_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 38"><g id="Calque_1-2"><path d="M17.5,1.95c4.3,0,7.97,1.52,11,4.55,3,3.03,4.5,6.7,4.5,11s-1.5,7.92-4.5,10.95l-.05.05c-3.03,3-6.68,4.5-10.95,4.5s-7.97-1.5-11-4.5c-3.03-3.03-4.55-6.7-4.55-11,0-4.27,1.52-7.93,4.55-11,3.07-3.03,6.73-4.55,11-4.55M17.5,3.95c-3.77,0-6.98,1.3-9.65,3.9-2.6,2.67-3.9,5.88-3.9,9.65,0,3.73,1.3,6.92,3.9,9.55,2.67,2.67,5.88,4,9.65,4,3.73,0,6.92-1.33,9.55-4,2.67-2.63,4-5.82,4-9.55,0-3.77-1.33-6.98-4-9.65-2.63-2.6-5.82-3.9-9.55-3.9" fill="#cbcbcb"/><path d="M17.5,3.95c3.73,0,6.92,1.3,9.55,3.9,2.67,2.67,4,5.88,4,9.65,0,3.73-1.33,6.92-4,9.55-2.63,2.67-5.82,4-9.55,4-3.77,0-6.98-1.33-9.65-4-2.6-2.63-3.9-5.82-3.9-9.55,0-3.77,1.3-6.98,3.9-9.65,2.67-2.6,5.88-3.9,9.65-3.9" fill="#e5e5e5"/><path
