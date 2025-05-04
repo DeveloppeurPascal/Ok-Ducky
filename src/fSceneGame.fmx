@@ -1,51 +1,21 @@
 inherited GameScene: TGameScene
   HitTest = False
-  object GridPanelLayout1: TGridPanelLayout
+  Size.Width = 620.000000000000000000
+  Size.Height = 303.000000000000000000
+  object lGameInfos: TLayout
     Align = Bottom
-    HitTest = False
     Margins.Left = 10.000000000000000000
     Margins.Top = 10.000000000000000000
     Margins.Right = 10.000000000000000000
     Margins.Bottom = 10.000000000000000000
     Position.X = 10.000000000000000000
-    Position.Y = 130.000000000000000000
-    Size.Width = 300.000000000000000000
+    Position.Y = 193.000000000000000000
+    Size.Width = 600.000000000000000000
     Size.Height = 100.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 0
-    ColumnCollection = <
-      item
-        Value = 33.000000000000000000
-      end
-      item
-        Value = 34.000000000000000000
-      end
-      item
-        Value = 33.000000000000000000
-      end>
-    ControlCollection = <
-      item
-        Column = 0
-        Control = txtScore
-        Row = 0
-      end
-      item
-        Column = 1
-        Control = txtNbBullets
-        Row = 0
-      end
-      item
-        Column = 2
-        Control = txtNbLives
-        Row = 0
-      end>
-    RowCollection = <
-      item
-        Value = 100.000000000000000000
-      end>
-    OnResized = GridPanelLayout1Resized
     inline txtScore: TOlfFMXTextImageFrame
-      Align = Center
+      Align = Left
       HitTest = False
       Size.Width = 134.669998168945300000
       Size.Height = 100.000000000000000000
@@ -58,13 +28,14 @@ inherited GameScene: TGameScene
         ShadowColor = claBlack
       end
     end
-    inline txtNbBullets: TOlfFMXTextImageFrame
-      Align = Center
+    inline txtNbLives: TOlfFMXTextImageFrame
+      Align = MostRight
       HitTest = False
-      Size.Width = 66.330001831054680000
+      Position.X = 501.000000000000000000
+      Size.Width = 99.000000000000000000
       Size.Height = 100.000000000000000000
       Size.PlatformDefault = False
-      object ShadowEffect1: TShadowEffect
+      object ShadowEffect2: TShadowEffect
         Distance = 3.000000000000000000
         Direction = 45.000000000000000000
         Softness = 0.300000011920929000
@@ -72,13 +43,15 @@ inherited GameScene: TGameScene
         ShadowColor = claBlack
       end
     end
-    inline txtNbLives: TOlfFMXTextImageFrame
-      Align = Center
+    inline txtNbBullets: TOlfFMXTextImageFrame
+      Align = Right
       HitTest = False
-      Size.Width = 99.000000000000000000
+      Margins.Right = 40.000000000000000000
+      Position.X = 394.669982910156200000
+      Size.Width = 66.330001831054680000
       Size.Height = 100.000000000000000000
       Size.PlatformDefault = False
-      object ShadowEffect2: TShadowEffect
+      object ShadowEffect1: TShadowEffect
         Distance = 3.000000000000000000
         Direction = 45.000000000000000000
         Softness = 0.300000011920929000

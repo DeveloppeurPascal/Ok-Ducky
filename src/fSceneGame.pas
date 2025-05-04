@@ -25,8 +25,8 @@
 /// https://github.com/DeveloppeurPascal/Ok-Ducky
 ///
 /// ***************************************************************************
-/// File last update : 2025-05-03T18:59:20.000+02:00
-/// Signature : 21b20509822061a0f29375d8d60128184ad75e00
+/// File last update : 2025-05-04T14:48:28.000+02:00
+/// Signature : 8df59ec010fd800abfc8b6e9c7a9833cd6f87c54
 /// ***************************************************************************
 /// </summary>
 
@@ -55,13 +55,13 @@ uses
 
 type
   TGameScene = class(T__SceneAncestor)
-    GridPanelLayout1: TGridPanelLayout;
     txtScore: TOlfFMXTextImageFrame;
     txtNbBullets: TOlfFMXTextImageFrame;
     txtNbLives: TOlfFMXTextImageFrame;
     ShadowEffect1: TShadowEffect;
     ShadowEffect2: TShadowEffect;
     ShadowEffect3: TShadowEffect;
+    lGameInfos: TLayout;
     procedure GridPanelLayout1Resized(Sender: TObject);
   private
   protected
@@ -142,9 +142,9 @@ end;
 procedure TGameScene.GridPanelLayout1Resized(Sender: TObject);
 begin
   inherited;
-  txtScore.height := GridPanelLayout1.height;
-  txtNbBullets.height := GridPanelLayout1.height;
-  txtNbLives.height := GridPanelLayout1.height;
+  txtScore.height := (txtScore.parent as tcontrol).height;
+  txtNbBullets.height := (txtNbBullets.parent as tcontrol).height;
+  txtNbLives.height := (txtNbLives.parent as tcontrol).height;
 end;
 
 procedure TGameScene.HideScene;
@@ -190,10 +190,13 @@ begin
 
   txtScore.Font := dmKenneyNumbers.ImageList;
   txtScore.OnGetImageIndexOfUnknowChar := GetImageIndexOfUnknowChar;
+  txtScore.SpaceWidth := 20;
   txtNbBullets.Font := dmKenneyNumbers.ImageList;
   txtNbBullets.OnGetImageIndexOfUnknowChar := GetImageIndexOfUnknowChar;
+  txtNbBullets.SpaceWidth := 20;
   txtNbLives.Font := dmKenneyNumbers.ImageList;
   txtNbLives.OnGetImageIndexOfUnknowChar := GetImageIndexOfUnknowChar;
+  txtNbLives.SpaceWidth := 20;
 
   TMessageManager.DefaultManager.SubscribeToMessage(TScoreChangedMessage,
     DoScoreChanged);
@@ -233,7 +236,7 @@ TMessageManager.DefaultManager.SubscribeToMessage(TSceneFactory,
       ((Msg as TSceneFactory).SceneType = TSceneType.Game) then
     begin
       NewScene := TGameScene.Create(application.mainform);
-      NewScene.Parent := application.mainform;
+      NewScene.parent := application.mainform;
       TScene.RegisterScene(TSceneType.Game, NewScene);
     end;
   end);
