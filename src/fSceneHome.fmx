@@ -1,7 +1,6 @@
 inherited HomeScene: THomeScene
   Size.Width = 781.000000000000000000
   Size.Height = 485.000000000000000000
-  OnResized = FrameResized
   inline cadTitle1: TcadTitle
     Align = MostBottom
     HitTest = False

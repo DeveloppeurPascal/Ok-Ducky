@@ -1,4 +1,4 @@
-/// <summary>
+ï»¿/// <summary>
 /// ***************************************************************************
 ///
 /// Ok Ducky!
@@ -25,8 +25,8 @@
 /// https://github.com/DeveloppeurPascal/Ok-Ducky
 ///
 /// ***************************************************************************
-/// File last update : 2025-05-02T19:14:08.000+02:00
-/// Signature : 8ad66dd6a7d5f2c8949aab9c7d1a92c72bb35903
+/// File last update : 2025-05-04T15:44:56.000+02:00
+/// Signature : 1b0aae3a445209932870e3166dd3193da64bf94c
 /// ***************************************************************************
 /// </summary>
 
@@ -140,12 +140,10 @@ begin
   DeLaDroiteVersLaGauche.Enabled := Canard_VersLaGauche.Visible;
   DeLaGaucheVersLaDroite.StartFromCurrent := true;
   DeLaGaucheVersLaDroite.Enabled := Canard_VersLaDroite.Visible;
-  // TODO : vérifier position de démarrage pour remettre valeur par défaut plutôt que startfromcurrent
 end;
 
 procedure TSpriteCanard.BougeLeCanardDeDroiteAGauche(AutoReverse: boolean);
 begin
-  // TODO : bizarrement, dans certains cas de canards immobilisés ou inclinés, ça ne repart pas à la bonne position en X
   CanardEnPause := false;
   MouvementEnBoucle := AutoReverse;
   DeLaGaucheVersLaDroite.StartFromCurrent := false;
@@ -158,7 +156,6 @@ end;
 
 procedure TSpriteCanard.BougeLeCanardDeGaucheADroite(AutoReverse: boolean);
 begin
-  // TODO : bizarrement, dans certains cas de canards immobilisés ou inclinés, ça ne repart pas à la bonne position en X
   CanardEnPause := false;
   MouvementEnBoucle := AutoReverse;
   DeLaDroiteVersLaGauche.StartFromCurrent := false;
@@ -252,7 +249,7 @@ var
   X: Single;
 begin
   CanardEnPause := true;
-  X := Position.X; // TODO : L'arrêt de l'animation positionne X sur StopValue
+  X := Position.X;
   DeLaGaucheVersLaDroite.Enabled := false;
   DeLaDroiteVersLaGauche.Enabled := false;
   Position.X := X;

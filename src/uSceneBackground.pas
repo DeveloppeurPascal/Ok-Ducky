@@ -25,8 +25,8 @@
 /// https://github.com/DeveloppeurPascal/Ok-Ducky
 ///
 /// ***************************************************************************
-/// File last update : 2025-05-04T15:14:18.000+02:00
-/// Signature : c43a125b4993802482d3e79bea5a2a71d3dd4e1f
+/// File last update : 2025-05-04T15:42:54.000+02:00
+/// Signature : 461dd6b64016cdd4bfff577f5dc5766184664374
 /// ***************************************************************************
 /// </summary>
 
@@ -148,7 +148,6 @@ begin
     (TOkDuckyGameData.Current.NbBullets > 0) then
   begin
     Canard.ImmobiliseLeCanard;
-    // TODO : à réfléchir si on bloque ou si on bouge encore
     Canard.RotationCenter.X := 0.5;
     Canard.RotationCenter.Y := 1;
     tanimator.AnimateFloat(Canard, 'RotationAngle',

@@ -25,8 +25,8 @@
 /// https://github.com/DeveloppeurPascal/Ok-Ducky
 ///
 /// ***************************************************************************
-/// File last update : 2025-05-03T18:46:10.000+02:00
-/// Signature : 43b2b53b62feb9dd4ddf72775214365d19ce6cd2
+/// File last update : 2025-05-04T15:56:48.000+02:00
+/// Signature : 692dc4073580d9e7523bfc5bb9914c8402ef0937
 /// ***************************************************************************
 /// </summary>
 
@@ -66,14 +66,12 @@ type
     btnQuit: TcadTextButton;
     procedure btnPlayClick(Sender: TObject);
     procedure btnQuitClick(Sender: TObject);
-    procedure FrameResized(Sender: TObject);
     procedure btnContinueClick(Sender: TObject);
     procedure btnCreditsClick(Sender: TObject);
     procedure btnHallOfFameClick(Sender: TObject);
     procedure btnOptionsClick(Sender: TObject);
   private
   protected
-    procedure CalcButtonLayout;
   public
     procedure ShowScene; override;
     procedure HideScene; override;
@@ -123,57 +121,6 @@ begin
   TScene.Current := TSceneType.Exit;
 end;
 
-procedure THomeScene.CalcButtonLayout;
-const
-  CTextButtonWidth = 200; // Width of SVG used for the button background
-var
-  i, nb: integer;
-  Height1Col, Height2Col, Height3Col: Single;
-begin
-  // TODO : retirer cette méthode qui à priori ne servira à rien sur ce jeu puisue l'affichage des boutons en deux colonnes convient aux tailles des appareils ciblés
-
-  // A revoir car on part du bas vers le haut et on doit retailler la zone complète
-  Exit;
-
-  // This calcul is right only if elements in the TFlowLayout have the same size
-  // (height and width).
-  Height1Col := 0;
-  Height2Col := 0;
-  Height3Col := 0;
-  nb := 0;
-  for i := 0 to flButtons.ChildrenCount - 1 do
-    if (flButtons.Children[i] is TControl) and
-      (flButtons.Children[i] as TControl).visible then
-    begin
-      Height1Col := Height1Col + (flButtons.Children[i] as TControl).margins.top
-        + (flButtons.Children[i] as TControl).height +
-        (flButtons.Children[i] as TControl).margins.Bottom;
-      if (nb mod 2 = 0) then
-        Height2Col := Height2Col + (flButtons.Children[i] as TControl)
-          .margins.top + (flButtons.Children[i] as TControl).height +
-          (flButtons.Children[i] as TControl).margins.Bottom;
-      if (nb mod 3 = 0) then
-        Height3Col := Height3Col + (flButtons.Children[i] as TControl)
-          .margins.top + (flButtons.Children[i] as TControl).height +
-          (flButtons.Children[i] as TControl).margins.Bottom;
-      inc(nb);
-    end;
-
-  if (Height1Col + lButtons.Position.y < height) then
-    flButtons.width := CTextButtonWidth
-  else if (Height2Col + lButtons.Position.y < height) then
-    flButtons.width := CTextButtonWidth * 2
-  else if (Height3Col + lButtons.Position.y < height) then
-    flButtons.width := CTextButtonWidth * 3
-  else
-    flButtons.width := CTextButtonWidth * 4;
-end;
-
-procedure THomeScene.FrameResized(Sender: TObject);
-begin
-  CalcButtonLayout;
-end;
-
 procedure THomeScene.HideScene;
 begin
   inherited;
@@ -218,7 +165,6 @@ begin
   TUIItemsList.Current.AddControl(btnQuit, btnHallOfFame, nil, nil, nil,
     false, true);
 {$ENDIF}
-  CalcButtonLayout;
 end;
 
 procedure THomeScene.TranslateTexts(const Language: string);
@@ -239,7 +185,7 @@ begin
     btnContinue.Text := 'Continue';
     btnPlay.Text := 'Play';
     btnOptions.Text := 'Options';
-    btnHallOfFame.Text := 'Hall of fame';
+    btnHallOfFame.Text := 'Scores';
     btnCredits.Text := 'Credits';
     btnQuit.Text := 'Quit';
   end;

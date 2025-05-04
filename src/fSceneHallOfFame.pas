@@ -25,8 +25,8 @@
 /// https://github.com/DeveloppeurPascal/Ok-Ducky
 ///
 /// ***************************************************************************
-/// File last update : 2025-05-03T17:38:44.000+02:00
-/// Signature : 2ee1fb78b3e6bce3032e3477db7438ffbf688339
+/// File last update : 2025-05-04T15:56:44.000+02:00
+/// Signature : 92fc61da5d7ad17e0b029816e26c869a5dac589d
 /// ***************************************************************************
 /// </summary>
 
@@ -141,7 +141,8 @@ begin
   if Language = 'fr' then
     txtTitle.Text := 'Scores'
   else
-    txtTitle.Text := 'Hall of Fame';
+    txtTitle.Text := 'Scores';
+  // "Hall of Fame" is too long with the selected typo
 end;
 
 initialization
