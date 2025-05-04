@@ -25,8 +25,8 @@
 /// https://github.com/DeveloppeurPascal/Ok-Ducky
 ///
 /// ***************************************************************************
-/// File last update : 2025-05-03T16:50:20.000+02:00
-/// Signature : 1f1c0b0ec3ba27400c9b52193b5a9739145a4d4a
+/// File last update : 2025-05-04T15:57:10.000+02:00
+/// Signature : 7fc5acc6448d7447d2005d6e2abe47636b613bf3
 /// ***************************************************************************
 /// </summary>
 
@@ -42,12 +42,12 @@ const
   /// Version number of your game, don't forget to update the
   /// Project/Options/Versions infos before compiling a public RELEASE
   /// </summary>
-  CAboutVersionNumber = '0.503';
+  CAboutVersionNumber = '1.0';
 
   /// <summary>
   /// Version date of your game, change it when you publish a new public release
   /// </summary>
-  CAboutVersionDate = '20250503';
+  CAboutVersionDate = '20250504';
 
   /// <summary>
   /// Title of your game used in the About box and as the main form caption
@@ -204,7 +204,7 @@ const
   /// Maximum ducks number for each layout (or Z-Index)
   /// </summary>
   CNbCanardsParZone = 3;
-  // TODO : gérer plutôt le nb de canards en fonction de la largeur de l'écran
+  // TODO : gérer plutôt le nb de canards en fonction de la largeur de l'écran et du niveau du joueur
 
   /// <summary>
   /// Nombre de secondes d'exécution de l'animation de disparition d'un canard touché
