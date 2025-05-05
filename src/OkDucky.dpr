@@ -107,6 +107,7 @@ begin
   GlobalUseMetal := True;
   {$ENDIF}
   Application.Initialize;
+  Application.FormFactor.Orientations := [TFormOrientation.Landscape, TFormOrientation.InvertedLandscape];
   Application.CreateForm(TfrmMain, frmMain);
   Application.CreateForm(TDMGameControllerCenter, DMGameControllerCenter);
   Application.CreateForm(TdmKenneyNumbers, dmKenneyNumbers);
